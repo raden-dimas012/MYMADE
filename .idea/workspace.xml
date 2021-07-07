@@ -17,20 +17,15 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab000343-31b3-4045-9297-7b5c5ea425b7" name="Default Changelist" comment="" />
+    <list default="true" id="ab000343-31b3-4045-9297-7b5c5ea425b7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,12 +60,15 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="ProjectId" id="1t0LxCQNGWqyL5DO5OkVNIlyzkn" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ResourceManagerPrefKey.ResourceType" value="MENU" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -199,6 +197,12 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
     <state x="245" y="186" key="#PSD" timestamp="1625659072853">
       <screen x="0" y="0" width="1440" height="900" />
@@ -244,14 +248,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="403" y="209" key="Downloadable.Font.Dialog.Size/0.0.1440.900@0.0.1440.900" timestamp="1621906817086" />
-    <state x="594" y="351" key="Github.ShareDialog" timestamp="1625664499375">
+    <state x="594" y="351" key="Github.ShareDialog" timestamp="1625666751474">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="594" y="351" key="Github.ShareDialog/0.0.1440.900@0.0.1440.900" timestamp="1625664499375" />
-    <state x="461" y="159" key="Github.UntrackedFilesDialog" timestamp="1625639588982">
+    <state x="594" y="351" key="Github.ShareDialog/0.0.1440.900@0.0.1440.900" timestamp="1625666751474" />
+    <state x="461" y="159" key="Github.UntrackedFilesDialog" timestamp="1625664631110">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="461" y="159" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1625639588982" />
+    <state x="461" y="159" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1625664631110" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1625641061291">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -272,10 +276,10 @@
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1625641061291" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.25.1440.804@0.25.1440.804" timestamp="1623922113227" />
-    <state x="229" y="86" key="SettingsEditor" timestamp="1625664372373">
+    <state x="229" y="86" key="SettingsEditor" timestamp="1625666131438">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1625664372373" />
+    <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1625666131438" />
     <state x="272" y="197" key="psd.add.library.dependency.panel.dimension" timestamp="1622271654662">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
