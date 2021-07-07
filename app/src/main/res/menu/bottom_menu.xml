@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+   <item
+       android:id="@+id/nav_content"
+       android:icon="@drawable/ic_movies"
+       android:menuCategory="secondary"
+       android:title="@string/home"/>
+
+    <item
+        android:id="@+id/nav_explore"
+        android:icon="@drawable/ic_explore"
+        android:menuCategory="secondary"
+        android:title="@string/explore"/>
+
+    <item
+        android:id="@+id/nav_favorite"
+        android:icon="@drawable/ic_fav"
+        android:menuCategory="secondary"
+        android:title="@string/favorite" />
+
+</menu>

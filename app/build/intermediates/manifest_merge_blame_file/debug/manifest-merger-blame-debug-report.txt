@@ -1,0 +1,457 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.dimas.made1"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->/Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:5:22-64
+12
+13    <!-- To store the heap dumps and leak analysis results. -->
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:23:5-80
+14-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:23:22-77
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- To allow starting foreground services on Android P+ - https://developer.android.com/preview/behavior-changes#fg-svc -->
+15-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:24:5-81
+15-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:24:22-78
+16    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+16-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:26:5-77
+16-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:26:22-74
+17    <uses-permission android:name="android.permission.WAKE_LOCK" />
+17-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:25:5-68
+17-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:25:22-65
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:26:5-79
+18-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:26:22-76
+19    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+19-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:27:5-81
+19-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:27:22-78
+20
+21    <application
+21-->/Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:7:5-27:19
+22        android:name="com.dimas.made1.MyApplication"
+22-->/Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:8:9-38
+23        android:allowBackup="false"
+23-->/Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:9:9-36
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/e6ee6de8666a098d0f7299a87f4f1428/core-1.5.0/AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:fullBackupContent="false"
+26-->/Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:10:9-42
+27        android:icon="@mipmap/ic_launcher"
+27-->/Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:11:9-43
+28        android:label="@string/app_name"
+28-->/Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:12:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->/Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:13:9-54
+30        android:supportsRtl="true"
+30-->/Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:14:9-35
+31        android:testOnly="true"
+32        android:theme="@style/MyTheme" >
+32-->/Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:15:9-39
+33        <activity android:name="com.dimas.made1.home.HomeActivity" >
+33-->/Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:16:9-22:20
+33-->/Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:16:19-52
+34            <intent-filter>
+34-->/Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:17:13-21:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->/Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:18:17-69
+35-->/Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:18:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:20:17-77
+37-->/Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:20:27-74
+38            </intent-filter>
+39        </activity>
+40
+41        <meta-data
+41-->/Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:24:9-26:57
+42            android:name="preloaded_fonts"
+42-->/Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:25:13-43
+43            android:resource="@array/preloaded_fonts" />
+43-->/Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:26:13-54
+44
+45        <service
+45-->[com.squareup.leakcanary:leakcanary-android:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/fac8deee472b2e92e02806bea33f8d27/leakcanary-android-2.7/AndroidManifest.xml:23:9-25:40
+46            android:name="leakcanary.internal.HeapAnalyzerService"
+46-->[com.squareup.leakcanary:leakcanary-android:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/fac8deee472b2e92e02806bea33f8d27/leakcanary-android-2.7/AndroidManifest.xml:24:13-67
+47            android:exported="false" />
+47-->[com.squareup.leakcanary:leakcanary-android:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/fac8deee472b2e92e02806bea33f8d27/leakcanary-android-2.7/AndroidManifest.xml:25:13-37
+48
+49        <provider
+49-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:29:9-37:20
+50            android:name="leakcanary.internal.LeakCanaryFileProvider"
+50-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:30:13-70
+51            android:authorities="com.squareup.leakcanary.fileprovider.com.dimas.made1"
+51-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:31:13-88
+52            android:exported="false"
+52-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:32:13-37
+53            android:grantUriPermissions="true" >
+53-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:33:13-47
+54            <meta-data
+54-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:34:13-36:66
+55                android:name="android.support.FILE_PROVIDER_PATHS"
+55-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:35:17-67
+56                android:resource="@xml/leak_canary_file_paths" />
+56-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:36:17-63
+57        </provider>
+58
+59        <activity
+59-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:39:9-44:66
+60            android:name="leakcanary.internal.activity.LeakActivity"
+60-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:40:13-69
+61            android:icon="@mipmap/leak_canary_icon"
+61-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:41:13-52
+62            android:label="@string/leak_canary_display_activity_label"
+62-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:42:13-71
+63            android:taskAffinity="com.squareup.leakcanary.com.dimas.made1"
+63-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:43:13-76
+64            android:theme="@style/leak_canary_LeakCanary.Base" />
+64-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:44:13-63
+65
+66        <activity-alias
+66-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:46:9-63:26
+67            android:name="leakcanary.internal.activity.LeakLauncherActivity"
+67-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:47:13-77
+68            android:banner="@drawable/leak_canary_tv_icon"
+68-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:48:13-59
+69            android:enabled="@bool/leak_canary_add_launcher_icon"
+69-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:49:13-66
+70            android:exported="true"
+70-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:50:13-36
+71            android:icon="@mipmap/leak_canary_icon"
+71-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:51:13-52
+72            android:label="@string/leak_canary_display_activity_label"
+72-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:52:13-71
+73            android:targetActivity="leakcanary.internal.activity.LeakActivity"
+73-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:53:13-79
+74            android:taskAffinity="com.squareup.leakcanary.com.dimas.made1"
+74-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:54:13-76
+75            android:theme="@style/leak_canary_LeakCanary.Base" >
+75-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:55:13-63
+76            <intent-filter>
+76-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:56:13-62:29
+77                <action android:name="android.intent.action.MAIN" />
+77-->/Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:18:17-69
+77-->/Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:18:25-66
+78
+79                <category android:name="android.intent.category.LAUNCHER" />
+79-->/Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:20:17-77
+79-->/Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:20:27-74
+80                <!-- Android TV launcher intent -->
+81                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+81-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:61:17-86
+81-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:61:27-83
+82            </intent-filter>
+83        </activity-alias>
+84
+85        <activity
+85-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:65:9-71:68
+86            android:name="leakcanary.internal.RequestStoragePermissionActivity"
+86-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:66:13-80
+87            android:excludeFromRecents="true"
+87-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:67:13-46
+88            android:icon="@mipmap/leak_canary_icon"
+88-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:68:13-52
+89            android:label="@string/leak_canary_storage_permission_activity_label"
+89-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:69:13-82
+90            android:taskAffinity="com.squareup.leakcanary.com.dimas.made1"
+90-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:70:13-76
+91            android:theme="@style/leak_canary_Theme.Transparent" />
+91-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:71:13-65
+92
+93        <receiver android:name="leakcanary.internal.NotificationReceiver" />
+93-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:73:9-77
+93-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:73:19-74
+94
+95        <provider
+95-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/d3406b6a3a32a84a352f5e467b0ab4ed/leakcanary-object-watcher-android-2.7/AndroidManifest.xml:8:9-12:40
+96            android:name="leakcanary.internal.AppWatcherInstaller$MainProcess"
+96-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/d3406b6a3a32a84a352f5e467b0ab4ed/leakcanary-object-watcher-android-2.7/AndroidManifest.xml:9:13-79
+97            android:authorities="com.dimas.made1.leakcanary-installer"
+97-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/d3406b6a3a32a84a352f5e467b0ab4ed/leakcanary-object-watcher-android-2.7/AndroidManifest.xml:10:13-72
+98            android:enabled="@bool/leak_canary_watcher_auto_install"
+98-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/d3406b6a3a32a84a352f5e467b0ab4ed/leakcanary-object-watcher-android-2.7/AndroidManifest.xml:11:13-69
+99            android:exported="false" />
+99-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/d3406b6a3a32a84a352f5e467b0ab4ed/leakcanary-object-watcher-android-2.7/AndroidManifest.xml:12:13-37
+100        <provider
+100-->[com.squareup.leakcanary:plumber-android:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/4aaea181a107046cacda2d3710592c51/plumber-android-2.7/AndroidManifest.xml:8:9-12:40
+101            android:name="leakcanary.internal.PlumberInstaller"
+101-->[com.squareup.leakcanary:plumber-android:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/4aaea181a107046cacda2d3710592c51/plumber-android-2.7/AndroidManifest.xml:9:13-64
+102            android:authorities="com.dimas.made1.plumber-installer"
+102-->[com.squareup.leakcanary:plumber-android:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/4aaea181a107046cacda2d3710592c51/plumber-android-2.7/AndroidManifest.xml:10:13-69
+103            android:enabled="@bool/leak_canary_plumber_auto_install"
+103-->[com.squareup.leakcanary:plumber-android:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/4aaea181a107046cacda2d3710592c51/plumber-android-2.7/AndroidManifest.xml:11:13-69
+104            android:exported="false" />
+104-->[com.squareup.leakcanary:plumber-android:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/4aaea181a107046cacda2d3710592c51/plumber-android-2.7/AndroidManifest.xml:12:13-37
+105        <provider
+105-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:31:9-37:35
+106            android:name="androidx.work.impl.WorkManagerInitializer"
+106-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:32:13-69
+107            android:authorities="com.dimas.made1.workmanager-init"
+107-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:33:13-68
+108            android:directBootAware="false"
+108-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:34:13-44
+109            android:exported="false"
+109-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:35:13-37
+110            android:multiprocess="true" />
+110-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:36:13-40
+111
+112        <service
+112-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:39:9-44:35
+113            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+113-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:40:13-88
+114            android:directBootAware="false"
+114-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:41:13-44
+115            android:enabled="@bool/enable_system_alarm_service_default"
+115-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:42:13-72
+116            android:exported="false" />
+116-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:43:13-37
+117        <service
+117-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:45:9-51:35
+118            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+118-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:46:13-84
+119            android:directBootAware="false"
+119-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:47:13-44
+120            android:enabled="@bool/enable_system_job_service_default"
+120-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:48:13-70
+121            android:exported="true"
+121-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:49:13-36
+122            android:permission="android.permission.BIND_JOB_SERVICE" />
+122-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:50:13-69
+123        <service
+123-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:52:9-57:35
+124            android:name="androidx.work.impl.foreground.SystemForegroundService"
+124-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:53:13-81
+125            android:directBootAware="false"
+125-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:54:13-44
+126            android:enabled="@bool/enable_system_foreground_service_default"
+126-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:55:13-77
+127            android:exported="false" />
+127-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:56:13-37
+128
+129        <receiver
+129-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:59:9-64:35
+130            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+130-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:60:13-88
+131            android:directBootAware="false"
+131-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:61:13-44
+132            android:enabled="true"
+132-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:62:13-35
+133            android:exported="false" />
+133-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:63:13-37
+134        <receiver
+134-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:65:9-75:20
+135            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+135-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:66:13-106
+136            android:directBootAware="false"
+136-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:67:13-44
+137            android:enabled="false"
+137-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:68:13-36
+138            android:exported="false" >
+138-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:69:13-37
+139            <intent-filter>
+139-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:71:13-74:29
+140                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+140-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:72:17-87
+140-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:72:25-84
+141                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+141-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:73:17-90
+141-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:73:25-87
+142            </intent-filter>
+143        </receiver>
+144        <receiver
+144-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:76:9-86:20
+145            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+145-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:77:13-104
+146            android:directBootAware="false"
+146-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:78:13-44
+147            android:enabled="false"
+147-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:79:13-36
+148            android:exported="false" >
+148-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:80:13-37
+149            <intent-filter>
+149-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:82:13-85:29
+150                <action android:name="android.intent.action.BATTERY_OKAY" />
+150-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:83:17-77
+150-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:83:25-74
+151                <action android:name="android.intent.action.BATTERY_LOW" />
+151-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:84:17-76
+151-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:84:25-73
+152            </intent-filter>
+153        </receiver>
+154        <receiver
+154-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:87:9-97:20
+155            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+155-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:88:13-104
+156            android:directBootAware="false"
+156-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:89:13-44
+157            android:enabled="false"
+157-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:90:13-36
+158            android:exported="false" >
+158-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:91:13-37
+159            <intent-filter>
+159-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:93:13-96:29
+160                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+160-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:94:17-83
+160-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:94:25-80
+161                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+161-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:95:17-82
+161-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:95:25-79
+162            </intent-filter>
+163        </receiver>
+164        <receiver
+164-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:98:9-107:20
+165            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+165-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:99:13-103
+166            android:directBootAware="false"
+166-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:100:13-44
+167            android:enabled="false"
+167-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:101:13-36
+168            android:exported="false" >
+168-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:102:13-37
+169            <intent-filter>
+169-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:104:13-106:29
+170                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+170-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:105:17-79
+170-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:105:25-76
+171            </intent-filter>
+172        </receiver>
+173        <receiver
+173-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:108:9-119:20
+174            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+174-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:109:13-88
+175            android:directBootAware="false"
+175-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:110:13-44
+176            android:enabled="false"
+176-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:111:13-36
+177            android:exported="false" >
+177-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:112:13-37
+178            <intent-filter>
+178-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:114:13-118:29
+179                <action android:name="android.intent.action.BOOT_COMPLETED" />
+179-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:115:17-79
+179-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:115:25-76
+180                <action android:name="android.intent.action.TIME_SET" />
+180-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:116:17-73
+180-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:116:25-70
+181                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+181-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:117:17-81
+181-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:117:25-78
+182            </intent-filter>
+183        </receiver>
+184        <receiver
+184-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:120:9-129:20
+185            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+185-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:121:13-99
+186            android:directBootAware="false"
+186-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:122:13-44
+187            android:enabled="@bool/enable_system_alarm_service_default"
+187-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:123:13-72
+188            android:exported="false" >
+188-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:124:13-37
+189            <intent-filter>
+189-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:126:13-128:29
+190                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+190-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:127:17-98
+190-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:127:25-95
+191            </intent-filter>
+192        </receiver>
+193        <receiver
+193-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:130:9-140:20
+194            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+194-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:131:13-78
+195            android:directBootAware="false"
+195-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:132:13-44
+196            android:enabled="true"
+196-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:133:13-35
+197            android:exported="true"
+197-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:134:13-36
+198            android:permission="android.permission.DUMP" >
+198-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:135:13-57
+199            <intent-filter>
+199-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:137:13-139:29
+200                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+200-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:138:17-88
+200-->[androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:138:25-85
+201            </intent-filter>
+202        </receiver>
+203
+204        <provider
+204-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/7a1caf3faf827b21f45194071aaee19f/lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+205            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+205-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/7a1caf3faf827b21f45194071aaee19f/lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+206            android:authorities="com.dimas.made1.lifecycle-process"
+206-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/7a1caf3faf827b21f45194071aaee19f/lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+207            android:exported="false"
+207-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/7a1caf3faf827b21f45194071aaee19f/lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+208            android:multiprocess="true" />
+208-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/7a1caf3faf827b21f45194071aaee19f/lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+209
+210        <service
+210-->[androidx.room:room-runtime:2.3.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/bdfc687db1106a8e49fe2f526986ec97/room-runtime-2.3.0/AndroidManifest.xml:25:9-28:40
+211            android:name="androidx.room.MultiInstanceInvalidationService"
+211-->[androidx.room:room-runtime:2.3.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/bdfc687db1106a8e49fe2f526986ec97/room-runtime-2.3.0/AndroidManifest.xml:26:13-74
+212            android:directBootAware="true"
+212-->[androidx.room:room-runtime:2.3.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/bdfc687db1106a8e49fe2f526986ec97/room-runtime-2.3.0/AndroidManifest.xml:27:13-43
+213            android:exported="false" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+213-->[androidx.room:room-runtime:2.3.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/bdfc687db1106a8e49fe2f526986ec97/room-runtime-2.3.0/AndroidManifest.xml:28:13-37
+214        <activity
+214-->[com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:12:5-271
+215            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+215-->[com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:12:15-102
+216            android:enabled="false"
+216-->[com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:12:103-126
+217            android:exported="false"
+217-->[com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:12:127-151
+218            android:launchMode="singleInstance"
+218-->[com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:12:204-239
+219            android:process=":playcore_missing_splits_activity"
+219-->[com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:12:152-203
+220            android:stateNotNeeded="true" />
+220-->[com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:12:240-269
+221        <activity
+221-->[com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:13:5-226
+222            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+222-->[com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:13:15-95
+223            android:enabled="false"
+223-->[com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:13:96-119
+224            android:exported="false"
+224-->[com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:13:120-144
+225            android:stateNotNeeded="true"
+225-->[com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:13:145-174
+226            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The services will be merged into the manifest of the hosting app. -->
+226-->[com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:13:175-224
+227        <service
+227-->[com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:16:5-18:15
+228            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+228-->[com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:16:14-95
+229            android:enabled="false"
+229-->[com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:16:96-119
+230            android:exported="true" >
+230-->[com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:16:120-143
+231            <meta-data
+231-->[com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:17:7-108
+232                android:name="com.google.android.play.core.assetpacks.versionCode"
+232-->[com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:17:18-84
+233                android:value="10901" />
+233-->[com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:17:85-106
+234        </service>
+235        <service
+235-->[com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:19:5-147
+236            android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"
+236-->[com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:19:14-96
+237            android:enabled="false"
+237-->[com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:19:97-120
+238            android:exported="false" />
+238-->[com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:19:121-145
+239    </application>
+240
+241</manifest>

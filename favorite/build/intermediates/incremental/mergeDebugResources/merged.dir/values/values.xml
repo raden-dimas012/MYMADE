@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel_delete_fav_movie">Cancel Delete This Favorite Movie?</string>
+    <string name="cancel_delete_fav_tv">Cancel Delete This Favorite TV?</string>
+    <string name="favorite_movie_not_found">Favorite Movie Not Found</string>
+    <string name="favorite_tv_not_found">Favorite Tv Not Found</string>
+    <string name="movie">Movie</string>
+    <string name="oke">Oke</string>
+    <string name="tv">TV</string>
+</resources>

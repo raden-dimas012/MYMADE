@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/radendimas/AndroidStudioProjects/MADE1.0/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_home.xml",
+        "source": "/Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/res/layout/activity_home.xml"
+    },
+    {
+        "merged": "/Users/radendimas/AndroidStudioProjects/MADE1.0/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/no_item.xml",
+        "source": "/Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/res/layout/no_item.xml"
+    },
+    {
+        "merged": "/Users/radendimas/AndroidStudioProjects/MADE1.0/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_list_shimmer.xml",
+        "source": "/Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/res/layout/item_list_shimmer.xml"
+    },
+    {
+        "merged": "/Users/radendimas/AndroidStudioProjects/MADE1.0/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_detail.xml",
+        "source": "/Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/res/layout/fragment_detail.xml"
+    },
+    {
+        "merged": "/Users/radendimas/AndroidStudioProjects/MADE1.0/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_explore.xml",
+        "source": "/Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/res/layout/fragment_explore.xml"
+    },
+    {
+        "merged": "/Users/radendimas/AndroidStudioProjects/MADE1.0/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/content_view_detail.xml",
+        "source": "/Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/res/layout/content_view_detail.xml"
+    },
+    {
+        "merged": "/Users/radendimas/AndroidStudioProjects/MADE1.0/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_splash_screen.xml",
+        "source": "/Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/res/layout/fragment_splash_screen.xml"
+    },
+    {
+        "merged": "/Users/radendimas/AndroidStudioProjects/MADE1.0/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_content.xml",
+        "source": "/Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/res/layout/fragment_content.xml"
+    },
+    {
+        "merged": "/Users/radendimas/AndroidStudioProjects/MADE1.0/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_content_shimmer.xml",
+        "source": "/Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/res/layout/item_content_shimmer.xml"
+    },
+    {
+        "merged": "/Users/radendimas/AndroidStudioProjects/MADE1.0/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_movie_tv.xml",
+        "source": "/Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/res/layout/fragment_movie_tv.xml"
+    }
+]

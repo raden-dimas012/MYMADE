@@ -1,0 +1,61 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-parcelize'
+    id 'kotlin-kapt'
+    id 'androidx.navigation.safeargs.kotlin'
+}
+
+apply from: '../shared_dependencies.gradle'
+
+
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+        applicationId "com.dimas.made1"
+        minSdkVersion 22
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        buildConfigField("String","API_KEY",api_key)
+        buildConfigField("String","BASE_URL",base_url)
+        buildConfigField("String","URL_IMAGE",url_image)
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    buildFeatures {
+        viewBinding true
+    }
+    dynamicFeatures = [':favorite']
+}
+
+dependencies {
+
+    implementation project(":core")
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.7'
+}

@@ -1,0 +1,22 @@
+com/dimas/made1/databinding/NoItemBinding.java
+ com.dimas.made1.databinding.NoItemBinding
+com/dimas/made1/databinding/ActivityHomeBinding.java
+ com.dimas.made1.databinding.ActivityHomeBinding
+com/dimas/made1/BuildConfig.java
+ com.dimas.made1.BuildConfig
+com/dimas/made1/databinding/ItemListShimmerBinding.java
+ com.dimas.made1.databinding.ItemListShimmerBinding
+com/dimas/made1/databinding/FragmentMovieTvBinding.java
+ com.dimas.made1.databinding.FragmentMovieTvBinding
+com/dimas/made1/databinding/ContentViewDetailBinding.java
+ com.dimas.made1.databinding.ContentViewDetailBinding
+com/dimas/made1/databinding/FragmentContentBinding.java
+ com.dimas.made1.databinding.FragmentContentBinding
+com/dimas/made1/databinding/ItemContentShimmerBinding.java
+ com.dimas.made1.databinding.ItemContentShimmerBinding
+com/dimas/made1/databinding/FragmentExploreBinding.java
+ com.dimas.made1.databinding.FragmentExploreBinding
+com/dimas/made1/databinding/FragmentDetailBinding.java
+ com.dimas.made1.databinding.FragmentDetailBinding
+com/dimas/made1/databinding/FragmentSplashScreenBinding.java
+ com.dimas.made1.databinding.FragmentSplashScreenBinding

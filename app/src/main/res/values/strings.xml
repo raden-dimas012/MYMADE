@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">IndoFlix</string>
+    <string name="args_movie">movie</string>
+    <string name="movie">Movie</string>
+    <string name="tv">TV</string>
+    <string name="favorite">Favorite</string>
+    <string name="explore">Explore</string>
+    <string name="home">Home</string>
+
+    <string name="tab_position_0">Movie</string>
+    <string name="tab_position_1">TV</string>
+    <string name="image_detail">image detail</string>
+    <string name="image_splash">image splashscreen</string>
+    <string name="image_content">image content</string>
+    <string name="fab_favorite">fab favorite</string>
+    <string name="fab_sorting">fab sorting</string>
+    <string name="release_date">Release Date</string>
+    <string name="rating">Rating</string>
+    <string name="vote_count">Total Vote</string>
+    <string name="popularity">Popularity</string>
+    <string name="content_desc">Content Description</string>
+
+
+    <string name="movie_trending">Movie Trending</string>
+    <string name="tv_trending">Tv Trending</string>
+
+    <string name="failed_load_movie">Failed to Load Data Movie</string>
+    <string name="failed_load_tv">Failed to Load Data Tv</string>
+
+    <string name="success_added_to_favorite">Success Added to Favorite</string>
+    <string name="success_removed_from_favorite">Success Removed from Favorite</string>
+
+    <string name="movie_not_found">Movie Not Found</string>
+    <string name="tv_not_found">TV not Found</string>
+    <string name="sort_movie_by_random">Sort Movie by Random</string>
+    <string name="sort_movie_by_rating">Sort Movie by Rating</string>
+    <string name="sort_movie_by_voting">Sort Movie by Voting</string>
+    <string name="sort_tv_by_random">Sort TV by Random</string>
+    <string name="sort_tv_by_rating">Sort TV by Rating</string>
+    <string name="sort_tv_by_voting">Sort TV by Voting</string>
+
+    <string name="invalid_position">Invalid Position</string>
+    <string name="search_movie">Search Movie</string>
+    <string name="search_tv">Search Tv</string>
+    <string name="search">Search</string>
+    <string name="version">v 0.5.0</string>
+
+</resources>

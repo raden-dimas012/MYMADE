@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/radendimas/AndroidStudioProjects/MADE1.0/favorite/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/radendimas/AndroidStudioProjects/MADE1.0/favorite/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "6,7,4,5,2,8,3",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "279,366,129,207,55,447,95",
+                        "endColumns": "86,80,77,71,39,35,33",
+                        "endOffsets": "361,442,202,274,90,478,124"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,142,223,301,373,413,449",
+                        "endColumns": "86,80,77,71,39,35,33",
+                        "endOffsets": "137,218,296,368,408,444,478"
+                    }
+                }
+            ]
+        }
+    ]
+}

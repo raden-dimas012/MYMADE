@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/radendimas/AndroidStudioProjects/MADE1.0/favorite/build/intermediates/res/merged/debug/layout_fragment_favorite_movie_tv.xml.flat",
+        "source": "/Users/radendimas/AndroidStudioProjects/MADE1.0/favorite/src/main/res/layout/fragment_favorite_movie_tv.xml"
+    },
+    {
+        "merged": "/Users/radendimas/AndroidStudioProjects/MADE1.0/favorite/build/intermediates/res/merged/debug/raw_not_found.json.flat",
+        "source": "/Users/radendimas/AndroidStudioProjects/MADE1.0/favorite/src/main/res/raw/not_found.json"
+    },
+    {
+        "merged": "/Users/radendimas/AndroidStudioProjects/MADE1.0/favorite/build/intermediates/res/merged/debug/layout_no_item_favorite.xml.flat",
+        "source": "/Users/radendimas/AndroidStudioProjects/MADE1.0/favorite/src/main/res/layout/no_item_favorite.xml"
+    },
+    {
+        "merged": "/Users/radendimas/AndroidStudioProjects/MADE1.0/favorite/build/intermediates/res/merged/debug/layout_fragment_favorite.xml.flat",
+        "source": "/Users/radendimas/AndroidStudioProjects/MADE1.0/favorite/src/main/res/layout/fragment_favorite.xml"
+    }
+]

@@ -1,0 +1,8 @@
+com/dimas/made1/favorite/BuildConfig.java
+ com.dimas.made1.favorite.BuildConfig
+com/dimas/made1/favorite/databinding/NoItemFavoriteBinding.java
+ com.dimas.made1.favorite.databinding.NoItemFavoriteBinding
+com/dimas/made1/favorite/databinding/FragmentFavoriteMovieTvBinding.java
+ com.dimas.made1.favorite.databinding.FragmentFavoriteMovieTvBinding
+com/dimas/made1/favorite/databinding/FragmentFavoriteBinding.java
+ com.dimas.made1.favorite.databinding.FragmentFavoriteBinding

@@ -1,0 +1,4 @@
+rootProject.name = "MADE1"
+include ':app'
+include ':core'
+include ':favorite'

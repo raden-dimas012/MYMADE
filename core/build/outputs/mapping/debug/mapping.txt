@@ -1,0 +1,38 @@
+# compiler: R8
+# compiler_version: 2.2.66
+# pg_map_id: 1545f5f
+# common_typos_disable
+com.dimas.made1.core.data.source.local.entity.movie.MovieEntity -> a.a.a.a.a.a.a.a.a.a:
+com.dimas.made1.core.data.source.local.entity.tv.TvEntity -> a.a.a.a.a.a.a.a.b.a:
+com.dimas.made1.core.data.source.local.room.AppDao -> a.a.a.a.a.a.a.b.a:
+com.dimas.made1.core.data.source.local.room.AppDao_Impl -> a.a.a.a.a.a.a.b.b:
+    741:741:java.util.List getRequiredConverters() -> a
+com.dimas.made1.core.data.source.local.room.AppDatabase -> com.dimas.made1.core.data.source.local.room.AppDatabase:
+    14:14:void <init>() -> <init>
+com.dimas.made1.core.data.source.local.room.AppDatabase_Impl -> com.dimas.made1.core.data.source.local.room.AppDatabase_Impl:
+    28:28:void <init>() -> <init>
+    28:28:java.util.List access$000(com.dimas.made1.core.data.source.local.room.AppDatabase_Impl) -> a
+    28:28:androidx.sqlite.db.SupportSQLiteDatabase access$602(com.dimas.made1.core.data.source.local.room.AppDatabase_Impl,androidx.sqlite.db.SupportSQLiteDatabase) -> a
+    28:28:java.util.List access$100(com.dimas.made1.core.data.source.local.room.AppDatabase_Impl) -> b
+    28:28:void access$700(com.dimas.made1.core.data.source.local.room.AppDatabase_Impl,androidx.sqlite.db.SupportSQLiteDatabase) -> b
+    28:28:java.util.List access$1000(com.dimas.made1.core.data.source.local.room.AppDatabase_Impl) -> c
+    142:156:void clearAllTables() -> clearAllTables
+    135:137:androidx.room.InvalidationTracker createInvalidationTracker() -> createInvalidationTracker
+    33:130:androidx.sqlite.db.SupportSQLiteOpenHelper createOpenHelper(androidx.room.DatabaseConfiguration) -> createOpenHelper
+    28:28:java.util.List access$200(com.dimas.made1.core.data.source.local.room.AppDatabase_Impl) -> d
+    28:28:java.util.List access$300(com.dimas.made1.core.data.source.local.room.AppDatabase_Impl) -> e
+    28:28:java.util.List access$400(com.dimas.made1.core.data.source.local.room.AppDatabase_Impl) -> f
+    28:28:java.util.List access$500(com.dimas.made1.core.data.source.local.room.AppDatabase_Impl) -> g
+    160:162:java.util.Map getRequiredTypeConverters() -> getRequiredTypeConverters
+    28:28:java.util.List access$800(com.dimas.made1.core.data.source.local.room.AppDatabase_Impl) -> h
+    28:28:java.util.List access$900(com.dimas.made1.core.data.source.local.room.AppDatabase_Impl) -> i
+com.dimas.made1.core.data.source.local.room.AppDatabase_Impl$1 -> com.dimas.made1.core.data.source.local.room.AppDatabase_Impl$a:
+    com.dimas.made1.core.data.source.local.room.AppDatabase_Impl this$0 -> a
+    33:33:void <init>(com.dimas.made1.core.data.source.local.room.AppDatabase_Impl,int) -> <init>
+    36:40:void createAllTables(androidx.sqlite.db.SupportSQLiteDatabase) -> createAllTables
+    44:51:void dropAllTables(androidx.sqlite.db.SupportSQLiteDatabase) -> dropAllTables
+    55:60:void onCreate(androidx.sqlite.db.SupportSQLiteDatabase) -> onCreate
+    64:71:void onOpen(androidx.sqlite.db.SupportSQLiteDatabase) -> onOpen
+    80:80:void onPostMigrate(androidx.sqlite.db.SupportSQLiteDatabase) -> onPostMigrate
+    75:76:void onPreMigrate(androidx.sqlite.db.SupportSQLiteDatabase) -> onPreMigrate
+    84:122:androidx.room.RoomOpenHelper$ValidationResult onValidateSchema(androidx.sqlite.db.SupportSQLiteDatabase) -> onValidateSchema

@@ -1,0 +1,226 @@
+com.dimas.made1.core.BuildConfig
+com.dimas.made1.core.adapter.ContentMovieAdapter$ContentMovieViewHolder
+com.dimas.made1.core.adapter.ContentMovieAdapter$OnItemClickCallback
+com.dimas.made1.core.adapter.ContentMovieAdapter
+com.dimas.made1.core.adapter.ContentTvAdapter$ContentTvViewHolder
+com.dimas.made1.core.adapter.ContentTvAdapter$OnItemClickCallback
+com.dimas.made1.core.adapter.ContentTvAdapter
+com.dimas.made1.core.adapter.MovieAdapter$MovieViewHolder
+com.dimas.made1.core.adapter.MovieAdapter$OnItemClickCallback
+com.dimas.made1.core.adapter.MovieAdapter
+com.dimas.made1.core.adapter.TvAdapter$OnItemClickCallback
+com.dimas.made1.core.adapter.TvAdapter$TvViewHolder
+com.dimas.made1.core.adapter.TvAdapter
+com.dimas.made1.core.data.repository.DataRepository$getAllMovies$1$loadFromDB$$inlined$map$1$2$1
+com.dimas.made1.core.data.repository.DataRepository$getAllMovies$1$loadFromDB$$inlined$map$1$2
+com.dimas.made1.core.data.repository.DataRepository$getAllMovies$1$loadFromDB$$inlined$map$1
+com.dimas.made1.core.data.repository.DataRepository$getAllMovies$1
+com.dimas.made1.core.data.repository.DataRepository$getAllTv$1$loadFromDB$$inlined$map$1$2$1
+com.dimas.made1.core.data.repository.DataRepository$getAllTv$1$loadFromDB$$inlined$map$1$2
+com.dimas.made1.core.data.repository.DataRepository$getAllTv$1$loadFromDB$$inlined$map$1
+com.dimas.made1.core.data.repository.DataRepository$getAllTv$1
+com.dimas.made1.core.data.repository.DataRepository$getFavoriteMovies$$inlined$map$1$2$1
+com.dimas.made1.core.data.repository.DataRepository$getFavoriteMovies$$inlined$map$1$2
+com.dimas.made1.core.data.repository.DataRepository$getFavoriteMovies$$inlined$map$1
+com.dimas.made1.core.data.repository.DataRepository$getFavoriteTv$$inlined$map$1$2$1
+com.dimas.made1.core.data.repository.DataRepository$getFavoriteTv$$inlined$map$1$2
+com.dimas.made1.core.data.repository.DataRepository$getFavoriteTv$$inlined$map$1
+com.dimas.made1.core.data.repository.DataRepository$getSearchMovies$$inlined$map$1$2$1
+com.dimas.made1.core.data.repository.DataRepository$getSearchMovies$$inlined$map$1$2
+com.dimas.made1.core.data.repository.DataRepository$getSearchMovies$$inlined$map$1
+com.dimas.made1.core.data.repository.DataRepository$getSearchTv$$inlined$map$1$2$1
+com.dimas.made1.core.data.repository.DataRepository$getSearchTv$$inlined$map$1$2
+com.dimas.made1.core.data.repository.DataRepository$getSearchTv$$inlined$map$1
+com.dimas.made1.core.data.repository.DataRepository
+com.dimas.made1.core.data.repository.NetworkBoundResource$result$1$invokeSuspend$$inlined$map$1$2$1
+com.dimas.made1.core.data.repository.NetworkBoundResource$result$1$invokeSuspend$$inlined$map$1$2
+com.dimas.made1.core.data.repository.NetworkBoundResource$result$1$invokeSuspend$$inlined$map$1
+com.dimas.made1.core.data.repository.NetworkBoundResource$result$1$invokeSuspend$$inlined$map$2$2$1
+com.dimas.made1.core.data.repository.NetworkBoundResource$result$1$invokeSuspend$$inlined$map$2$2
+com.dimas.made1.core.data.repository.NetworkBoundResource$result$1$invokeSuspend$$inlined$map$2
+com.dimas.made1.core.data.repository.NetworkBoundResource$result$1$invokeSuspend$$inlined$map$3$2$1
+com.dimas.made1.core.data.repository.NetworkBoundResource$result$1$invokeSuspend$$inlined$map$3$2
+com.dimas.made1.core.data.repository.NetworkBoundResource$result$1$invokeSuspend$$inlined$map$3
+com.dimas.made1.core.data.repository.NetworkBoundResource$result$1
+com.dimas.made1.core.data.repository.NetworkBoundResource
+com.dimas.made1.core.data.repository.Resource$Error
+com.dimas.made1.core.data.repository.Resource$Loading
+com.dimas.made1.core.data.repository.Resource$Success
+com.dimas.made1.core.data.repository.Resource
+com.dimas.made1.core.data.source.local.LocalDataSource
+com.dimas.made1.core.data.source.local.entity.movie.MovieEntity:
+    private java.lang.String id
+    private boolean isFavorite
+    private java.lang.String name
+    private java.lang.String overview
+    private java.lang.Double popularity
+    private java.lang.String posterPath
+    private java.lang.String releaseDate
+    private java.lang.Double voteAverage
+    private java.lang.Integer voteCount
+    public void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.Integer,java.lang.Double,boolean)
+    public synthetic void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.Integer,java.lang.Double,boolean,int,kotlin.jvm.internal.DefaultConstructorMarker)
+    public final java.lang.String component1()
+    public final java.lang.String component2()
+    public final java.lang.String component3()
+    public final java.lang.String component4()
+    public final java.lang.String component5()
+    public final java.lang.Double component6()
+    public final java.lang.Integer component7()
+    public final java.lang.Double component8()
+    public final boolean component9()
+    public final com.dimas.made1.core.data.source.local.entity.movie.MovieEntity copy(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.Integer,java.lang.Double,boolean)
+    public static synthetic com.dimas.made1.core.data.source.local.entity.movie.MovieEntity copy$default(com.dimas.made1.core.data.source.local.entity.movie.MovieEntity,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.Integer,java.lang.Double,boolean,int,java.lang.Object)
+    public boolean equals(java.lang.Object)
+    public final java.lang.String getId()
+    public final java.lang.String getName()
+    public final java.lang.String getOverview()
+    public final java.lang.Double getPopularity()
+    public final java.lang.String getPosterPath()
+    public final java.lang.String getReleaseDate()
+    public final java.lang.Double getVoteAverage()
+    public final java.lang.Integer getVoteCount()
+    public int hashCode()
+    public final boolean isFavorite()
+    public final void setFavorite(boolean)
+    public final void setId(java.lang.String)
+    public final void setName(java.lang.String)
+    public final void setOverview(java.lang.String)
+    public final void setPopularity(java.lang.Double)
+    public final void setPosterPath(java.lang.String)
+    public final void setReleaseDate(java.lang.String)
+    public final void setVoteAverage(java.lang.Double)
+    public final void setVoteCount(java.lang.Integer)
+    public java.lang.String toString()
+com.dimas.made1.core.data.source.local.entity.tv.TvEntity:
+    private java.lang.String firstAirDate
+    private java.lang.String id
+    private boolean isFavorite
+    private java.lang.String name
+    private java.lang.String overview
+    private java.lang.Double popularity
+    private java.lang.String posterPath
+    private java.lang.Double voteAverage
+    private java.lang.Integer voteCount
+    public void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.Integer,java.lang.Double,boolean)
+    public synthetic void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.Integer,java.lang.Double,boolean,int,kotlin.jvm.internal.DefaultConstructorMarker)
+    public final java.lang.String component1()
+    public final java.lang.String component2()
+    public final java.lang.String component3()
+    public final java.lang.String component4()
+    public final java.lang.String component5()
+    public final java.lang.Double component6()
+    public final java.lang.Integer component7()
+    public final java.lang.Double component8()
+    public final boolean component9()
+    public final com.dimas.made1.core.data.source.local.entity.tv.TvEntity copy(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.Integer,java.lang.Double,boolean)
+    public static synthetic com.dimas.made1.core.data.source.local.entity.tv.TvEntity copy$default(com.dimas.made1.core.data.source.local.entity.tv.TvEntity,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.Integer,java.lang.Double,boolean,int,java.lang.Object)
+    public boolean equals(java.lang.Object)
+    public final java.lang.String getFirstAirDate()
+    public final java.lang.String getId()
+    public final java.lang.String getName()
+    public final java.lang.String getOverview()
+    public final java.lang.Double getPopularity()
+    public final java.lang.String getPosterPath()
+    public final java.lang.Double getVoteAverage()
+    public final java.lang.Integer getVoteCount()
+    public int hashCode()
+    public final boolean isFavorite()
+    public final void setFavorite(boolean)
+    public final void setFirstAirDate(java.lang.String)
+    public final void setId(java.lang.String)
+    public final void setName(java.lang.String)
+    public final void setOverview(java.lang.String)
+    public final void setPopularity(java.lang.Double)
+    public final void setPosterPath(java.lang.String)
+    public final void setVoteAverage(java.lang.Double)
+    public final void setVoteCount(java.lang.Integer)
+    public java.lang.String toString()
+com.dimas.made1.core.data.source.local.room.AppDao:
+    public abstract kotlinx.coroutines.flow.Flow getFavoriteMovies()
+    public abstract kotlinx.coroutines.flow.Flow getFavoriteTv()
+    public abstract kotlinx.coroutines.flow.Flow getMovies(androidx.sqlite.db.SimpleSQLiteQuery)
+    public abstract kotlinx.coroutines.flow.Flow getSearchMovies(java.lang.String)
+    public abstract kotlinx.coroutines.flow.Flow getSearchTv(java.lang.String)
+    public abstract kotlinx.coroutines.flow.Flow getTv(androidx.sqlite.db.SimpleSQLiteQuery)
+    public abstract java.lang.Object insertMovies(java.util.List,kotlin.coroutines.Continuation)
+    public abstract java.lang.Object insertTv(java.util.List,kotlin.coroutines.Continuation)
+    public abstract void updateMovie(com.dimas.made1.core.data.source.local.entity.movie.MovieEntity)
+    public abstract void updateTv(com.dimas.made1.core.data.source.local.entity.tv.TvEntity)
+com.dimas.made1.core.data.source.local.room.AppDao_Impl$10
+com.dimas.made1.core.data.source.local.room.AppDao_Impl$11
+com.dimas.made1.core.data.source.local.room.AppDao_Impl$12
+com.dimas.made1.core.data.source.local.room.AppDao_Impl$1
+com.dimas.made1.core.data.source.local.room.AppDao_Impl$2
+com.dimas.made1.core.data.source.local.room.AppDao_Impl$3
+com.dimas.made1.core.data.source.local.room.AppDao_Impl$4
+com.dimas.made1.core.data.source.local.room.AppDao_Impl$5
+com.dimas.made1.core.data.source.local.room.AppDao_Impl$6
+com.dimas.made1.core.data.source.local.room.AppDao_Impl$7
+com.dimas.made1.core.data.source.local.room.AppDao_Impl$8
+com.dimas.made1.core.data.source.local.room.AppDao_Impl$9
+com.dimas.made1.core.data.source.local.room.AppDao_Impl:
+    private final androidx.room.RoomDatabase __db
+    private final androidx.room.EntityInsertionAdapter __insertionAdapterOfMovieEntity
+    private final androidx.room.EntityInsertionAdapter __insertionAdapterOfTvEntity
+    private final androidx.room.EntityDeletionOrUpdateAdapter __updateAdapterOfMovieEntity
+    private final androidx.room.EntityDeletionOrUpdateAdapter __updateAdapterOfTvEntity
+    public void <init>(androidx.room.RoomDatabase)
+    private com.dimas.made1.core.data.source.local.entity.movie.MovieEntity __entityCursorConverter_comDimasMade1CoreDataSourceLocalEntityMovieMovieEntity(android.database.Cursor)
+    private com.dimas.made1.core.data.source.local.entity.tv.TvEntity __entityCursorConverter_comDimasMade1CoreDataSourceLocalEntityTvTvEntity(android.database.Cursor)
+    static synthetic androidx.room.RoomDatabase access$000(com.dimas.made1.core.data.source.local.room.AppDao_Impl)
+    static synthetic androidx.room.EntityInsertionAdapter access$100(com.dimas.made1.core.data.source.local.room.AppDao_Impl)
+    static synthetic androidx.room.EntityInsertionAdapter access$200(com.dimas.made1.core.data.source.local.room.AppDao_Impl)
+    static synthetic com.dimas.made1.core.data.source.local.entity.movie.MovieEntity access$300(com.dimas.made1.core.data.source.local.room.AppDao_Impl,android.database.Cursor)
+    static synthetic com.dimas.made1.core.data.source.local.entity.tv.TvEntity access$400(com.dimas.made1.core.data.source.local.room.AppDao_Impl,android.database.Cursor)
+    public kotlinx.coroutines.flow.Flow getFavoriteMovies()
+    public kotlinx.coroutines.flow.Flow getFavoriteTv()
+    public kotlinx.coroutines.flow.Flow getMovies(androidx.sqlite.db.SimpleSQLiteQuery)
+    public kotlinx.coroutines.flow.Flow getSearchMovies(java.lang.String)
+    public kotlinx.coroutines.flow.Flow getSearchTv(java.lang.String)
+    public kotlinx.coroutines.flow.Flow getTv(androidx.sqlite.db.SimpleSQLiteQuery)
+    public java.lang.Object insertMovies(java.util.List,kotlin.coroutines.Continuation)
+    public java.lang.Object insertTv(java.util.List,kotlin.coroutines.Continuation)
+    public void updateMovie(com.dimas.made1.core.data.source.local.entity.movie.MovieEntity)
+    public void updateTv(com.dimas.made1.core.data.source.local.entity.tv.TvEntity)
+com.dimas.made1.core.data.source.local.room.AppDatabase:
+    public abstract com.dimas.made1.core.data.source.local.room.AppDao appDao()
+com.dimas.made1.core.data.source.local.room.AppDatabase_Impl:
+    private volatile com.dimas.made1.core.data.source.local.room.AppDao _appDao
+    public com.dimas.made1.core.data.source.local.room.AppDao appDao()
+com.dimas.made1.core.data.source.remote.RemoteDataSource$getMovies$2
+com.dimas.made1.core.data.source.remote.RemoteDataSource$getTv$2
+com.dimas.made1.core.data.source.remote.RemoteDataSource
+com.dimas.made1.core.data.source.remote.network.ApiResponse$Empty
+com.dimas.made1.core.data.source.remote.network.ApiResponse$Error
+com.dimas.made1.core.data.source.remote.network.ApiResponse$Success
+com.dimas.made1.core.data.source.remote.network.ApiResponse
+com.dimas.made1.core.data.source.remote.network.ApiService
+com.dimas.made1.core.data.source.remote.response.movie.Movie
+com.dimas.made1.core.data.source.remote.response.movie.MovieResponse
+com.dimas.made1.core.data.source.remote.response.tv.Tv
+com.dimas.made1.core.data.source.remote.response.tv.TvResponse
+com.dimas.made1.core.databinding.ItemContentBinding
+com.dimas.made1.core.databinding.ItemListBinding
+com.dimas.made1.core.di.CoreModule$databaseModule$1$1
+com.dimas.made1.core.di.CoreModule$databaseModule$1$2
+com.dimas.made1.core.di.CoreModule$databaseModule$1
+com.dimas.made1.core.di.CoreModule$networkModule$1$1
+com.dimas.made1.core.di.CoreModule$networkModule$1$2
+com.dimas.made1.core.di.CoreModule$networkModule$1
+com.dimas.made1.core.di.CoreModule$repositoryModule$1$1
+com.dimas.made1.core.di.CoreModule$repositoryModule$1$2
+com.dimas.made1.core.di.CoreModule$repositoryModule$1$3
+com.dimas.made1.core.di.CoreModule$repositoryModule$1$4
+com.dimas.made1.core.di.CoreModule$repositoryModule$1
+com.dimas.made1.core.di.CoreModule
+com.dimas.made1.core.domain.model.DataDomain$Creator
+com.dimas.made1.core.domain.model.DataDomain
+com.dimas.made1.core.domain.repository.IDataRepository
+com.dimas.made1.core.domain.usecase.DataInteractor
+com.dimas.made1.core.domain.usecase.DataUseCase
+com.dimas.made1.core.utils.AppExecutors$Companion
+com.dimas.made1.core.utils.AppExecutors$MainThreadExecutor
+com.dimas.made1.core.utils.AppExecutors
+com.dimas.made1.core.utils.DataMapper
+com.dimas.made1.core.utils.Sorting

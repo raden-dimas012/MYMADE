@@ -1,0 +1,799 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:2:1-29:12
+MERGED from [:core] /Users/radendimas/AndroidStudioProjects/MADE1.0/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.databinding:viewbinding:4.2.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/b91bb87e5513138ea6ba48ac3e717c90/viewbinding-4.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/fac8deee472b2e92e02806bea33f8d27/leakcanary-android-2.7/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.navigation:navigation-dynamic-features-fragment:2.3.5] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/acd060ce6ddb4dfcdb1c44b939440c2e/navigation-dynamic-features-fragment-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/d585a8423e98c7c7d1469eeb404cba9c/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [io.insert-koin:koin-android-ext:3.0.2] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/6cd6ac7bbaa7fbce0d296ed006540ff9/koin-android-ext-3.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [io.insert-koin:koin-androidx-workmanager:3.0.2] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/c6bcbcc0f82304635bc7b54ae7c89a3d/koin-androidx-workmanager-3.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [io.insert-koin:koin-android:3.0.2] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/4c6ecdd27eb31301089d6c42b1fb0a9f/koin-android-3.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment-ktx:1.3.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ffdf014befd56baa64e3f975935b21b7/fragment-ktx-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ec60473c9e1156d01fc364634a45f7c6/navigation-ui-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-dynamic-features-runtime:2.3.5] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/46b48e10742b74afc15d18c18b6b8253/navigation-dynamic-features-runtime-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/f24decc510961086dfd1d83571c342f4/navigation-runtime-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.2.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/09bb71c0e867e79d8985aed13b54dc98/activity-ktx-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/7c8a06cbafa2afc749b01be391b03348/navigation-common-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/a07247f5fe8ff275738e37bd2718e403/core-ktx-1.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/88a483084d2a124d0ca04f91b616c389/lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.work:work-runtime-ktx:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/b590045d5470156e508237c22d547dc3/work-runtime-ktx-2.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-ktx:2.3.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/b16e200ff321c4956f258e28c9fff074/room-ktx-2.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/da63f76beb14a7fb3bcd4fbfab1d6b71/lifecycle-runtime-ktx-2.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/4c1b30929e28d52d06095f8fb8099e49/lifecycle-livedata-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:17:1-76:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/8e5d4e88fa58111e58d9c194070e9f7f/lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite-ktx:2.1.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/0a471edd97d17ebd34c2b1e7ec70990a/sqlite-ktx-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-androidx:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/11fe2aadfaf2b139a737e5a56cf84e1d/leakcanary-object-watcher-android-androidx-2.7/AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-support-fragments:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/d18dcbce77aa7aa682a1392c3a1a2dd3/leakcanary-object-watcher-android-support-fragments-2.7/AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/d3406b6a3a32a84a352f5e467b0ab4ed/leakcanary-object-watcher-android-2.7/AndroidManifest.xml:2:1-15:12
+MERGED from [com.squareup.leakcanary:plumber-android:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/4aaea181a107046cacda2d3710592c51/plumber-android-2.7/AndroidManifest.xml:2:1-15:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ea4174d878a7ffc04edfce51289f48a0/savedstate-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.squareup.leakcanary:leakcanary-android-utils:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/c9380ab44df775b2aa670c923b6bb5d1/leakcanary-android-utils-2.7/AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.curtains:curtains:1.0.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/cdca259fff6037f8d3f8dc19e3018ec9/curtains-1.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.airbnb.android:lottie:3.4.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/3ece38e5805ea6d7c1ffa6bfb38b6e53/lottie-3.4.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.navigation:navigation-ui:2.3.5] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/34bf317e4ad09c27f1573e7a633575b2/navigation-ui-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.3.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/edf47a494eccf497377a198abf6c3631/material-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/17c88e50d792807417ff7bba87141383/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/35580319424d8aeba8aad30354248845/appcompat-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/f6f7782a6db0653f20bc44ae21f94847/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ce8af71481393d86d0f44ff514e77dbb/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/5c3f04809f56e175ca9810109385cf7a/glide-4.12.0/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/563a2fce69a3248b6be01bdc5346ce34/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.facebook.shimmer:shimmer:0.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/15651895a4d884a868958bd3758b2f06/shimmer-0.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/29e7e711acaf0f18d3c8fa4a7b10fc08/recyclerview-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/28aa263980d9dc583ed08c0487362454/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/a24e092b7f20b94cab09955ce9a676ef/navigation-fragment-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/8a706f77fa6c1b840aef776ad8673dd2/fragment-1.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/c1abb093e5579c0be9e41ea75eaedaf1/navigation-runtime-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.3] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/dbbf25763263a01aea7744b7dda06baa/activity-1.2.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/c83bebdb70c0c1821ed61effc9c0ade2/appcompat-resources-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/e00b3fea3c90cc30a30fe923b2d6e761/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/a3e690d4a6d097835db51e95290cad1c/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/82c44aac869e91839e7111bf8202210f/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/03a2a0535bf5bbdaf0745f0c9ae2e6b6/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/662d3e18b7a8fd98bff16c0783cf3c5b/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/a71e807c67e06feb7a68c2996fa4dde9/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/971a754239c26a344955a809f48a6801/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/6b579b922c0d254599461597ae720085/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/5ae045832fd6c0d7c9bc22f0bbd1d707/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/9d5628ac4230d0b5b9b4cdbc4fdc7fb6/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/c54c9ec761cb1296e743a8e8d10b8b37/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/a3451642183a2c86778ad7a0ebde33fd/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ce3520d7054e4260d778165a436aa78e/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/3e6a4969632d7b66aa213eb0e0f23240/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/96abd9f96ca9beafe955df0e221e8aef/transition-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:17:1-143:12
+MERGED from [androidx.navigation:navigation-common:2.3.5] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/7b667869c06c32d365f16781bbf5ceb4/navigation-common-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/e6ee6de8666a098d0f7299a87f4f1428/core-1.5.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/e03ee64429f55321ee0379ad1927620b/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/1e274188a7106d2e95c5f9b266c22e02/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/2e674751967ec3205ccb7ba7875894c8/savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/7a1caf3faf827b21f45194071aaee19f/lifecycle-process-2.2.0/AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/a99e16b1c732082674a72e97b5102aca/lifecycle-service-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/e59cd4c108948640983e0bf58a24744a/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/de4af579dea245774f4c92967b31e37b/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/65d72ca59aa15f43ee6a5fe77456cefe/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/6a61a05a64daad1762c5216ef443e9a3/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/b4073d1bc68cf8650187668a3b0a2caf/gifdecoder-4.12.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/c2717b60b09087ebf15da785366de65c/exifinterface-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/03af82de92f7425ae7d769cc0c998d18/lifecycle-livedata-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.3.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/bdfc687db1106a8e49fe2f526986ec97/room-runtime-2.3.0/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/1e8e31574b762840d07f701dea28a28b/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/576edaf4f56ba3903e7fdee6eaeb54cc/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/c378a8db87a70d6ac3ba243ad071937c/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/f1b6f617ca575070a9285bc3d336ccad/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/7a9c0125ff88f19996501f33f874091d/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/23afa6e6bdf3fab0479963bcdb27d613/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/4af603c5aa22ee47f688bde2aec162a7/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/59cc26f68fa30b395cf51289e947470e/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [net.zetetic:android-database-sqlcipher:4.4.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/7947aebfe3b9a6280ec892ef5815c87a/android-database-sqlcipher-4.4.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/df66e7d310089f46c747b5a7e349aa68/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/6d67f6103fc42e35369c580f198245b4/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:2:1-23:12
+MERGED from [:favorite] /Users/radendimas/AndroidStudioProjects/MADE1.0/favorite/build/intermediates/metadata_feature_manifest/debug/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:2:1-29:12
+	package
+		ADDED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:3:5-30
+		INJECTED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml
+		ADDED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:2:1-29:12
+		INJECTED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml
+		ADDED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:2:1-29:12
+		INJECTED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:7:5-27:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/fac8deee472b2e92e02806bea33f8d27/leakcanary-android-2.7/AndroidManifest.xml:22:5-26:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/fac8deee472b2e92e02806bea33f8d27/leakcanary-android-2.7/AndroidManifest.xml:22:5-26:19
+MERGED from [io.insert-koin:koin-android-ext:3.0.2] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/6cd6ac7bbaa7fbce0d296ed006540ff9/koin-android-ext-3.0.2/AndroidManifest.xml:7:5-20
+MERGED from [io.insert-koin:koin-android-ext:3.0.2] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/6cd6ac7bbaa7fbce0d296ed006540ff9/koin-android-ext-3.0.2/AndroidManifest.xml:7:5-20
+MERGED from [io.insert-koin:koin-androidx-workmanager:3.0.2] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/c6bcbcc0f82304635bc7b54ae7c89a3d/koin-androidx-workmanager-3.0.2/AndroidManifest.xml:7:5-20
+MERGED from [io.insert-koin:koin-androidx-workmanager:3.0.2] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/c6bcbcc0f82304635bc7b54ae7c89a3d/koin-androidx-workmanager-3.0.2/AndroidManifest.xml:7:5-20
+MERGED from [io.insert-koin:koin-android:3.0.2] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/4c6ecdd27eb31301089d6c42b1fb0a9f/koin-android-3.0.2/AndroidManifest.xml:7:5-20
+MERGED from [io.insert-koin:koin-android:3.0.2] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/4c6ecdd27eb31301089d6c42b1fb0a9f/koin-android-3.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:28:5-74:19
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:28:5-74:19
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/d3406b6a3a32a84a352f5e467b0ab4ed/leakcanary-object-watcher-android-2.7/AndroidManifest.xml:7:5-13:19
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/d3406b6a3a32a84a352f5e467b0ab4ed/leakcanary-object-watcher-android-2.7/AndroidManifest.xml:7:5-13:19
+MERGED from [com.squareup.leakcanary:plumber-android:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/4aaea181a107046cacda2d3710592c51/plumber-android-2.7/AndroidManifest.xml:7:5-13:19
+MERGED from [com.squareup.leakcanary:plumber-android:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/4aaea181a107046cacda2d3710592c51/plumber-android-2.7/AndroidManifest.xml:7:5-13:19
+MERGED from [com.airbnb.android:lottie:3.4.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/3ece38e5805ea6d7c1ffa6bfb38b6e53/lottie-3.4.1/AndroidManifest.xml:9:5-20
+MERGED from [com.airbnb.android:lottie:3.4.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/3ece38e5805ea6d7c1ffa6bfb38b6e53/lottie-3.4.1/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.material:material:1.3.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/edf47a494eccf497377a198abf6c3631/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/edf47a494eccf497377a198abf6c3631/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/17c88e50d792807417ff7bba87141383/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/17c88e50d792807417ff7bba87141383/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/5c3f04809f56e175ca9810109385cf7a/glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/5c3f04809f56e175ca9810109385cf7a/glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/563a2fce69a3248b6be01bdc5346ce34/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/563a2fce69a3248b6be01bdc5346ce34/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:30:5-141:19
+MERGED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:30:5-141:19
+MERGED from [androidx.core:core:1.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/e6ee6de8666a098d0f7299a87f4f1428/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/e6ee6de8666a098d0f7299a87f4f1428/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/7a1caf3faf827b21f45194071aaee19f/lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/7a1caf3faf827b21f45194071aaee19f/lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/6a61a05a64daad1762c5216ef443e9a3/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/6a61a05a64daad1762c5216ef443e9a3/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/b4073d1bc68cf8650187668a3b0a2caf/gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/b4073d1bc68cf8650187668a3b0a2caf/gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.room:room-runtime:2.3.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/bdfc687db1106a8e49fe2f526986ec97/room-runtime-2.3.0/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.3.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/bdfc687db1106a8e49fe2f526986ec97/room-runtime-2.3.0/AndroidManifest.xml:24:5-29:19
+MERGED from [com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:10:3-21:17
+MERGED from [com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:10:3-21:17
+MERGED from [:favorite] /Users/radendimas/AndroidStudioProjects/MADE1.0/favorite/build/intermediates/metadata_feature_manifest/debug/AndroidManifest.xml:21:5-20
+MERGED from [:favorite] /Users/radendimas/AndroidStudioProjects/MADE1.0/favorite/build/intermediates/metadata_feature_manifest/debug/AndroidManifest.xml:21:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/e6ee6de8666a098d0f7299a87f4f1428/core-1.5.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:12:9-41
+	android:fullBackupContent
+		ADDED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:10:9-42
+	android:roundIcon
+		ADDED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:13:9-54
+	android:icon
+		ADDED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:11:9-43
+	android:allowBackup
+		ADDED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:9:9-36
+	android:theme
+		ADDED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:15:9-39
+	android:name
+		ADDED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:8:9-38
+activity#com.dimas.made1.home.HomeActivity
+ADDED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:16:9-22:20
+	android:name
+		ADDED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:16:19-52
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:20:27-74
+meta-data#preloaded_fonts
+ADDED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:24:9-26:57
+	android:resource
+		ADDED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:26:13-54
+	android:name
+		ADDED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml:25:13-43
+uses-sdk
+INJECTED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml
+INJECTED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml
+MERGED from [:core] /Users/radendimas/AndroidStudioProjects/MADE1.0/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:core] /Users/radendimas/AndroidStudioProjects/MADE1.0/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.databinding:viewbinding:4.2.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/b91bb87e5513138ea6ba48ac3e717c90/viewbinding-4.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:4.2.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/b91bb87e5513138ea6ba48ac3e717c90/viewbinding-4.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/fac8deee472b2e92e02806bea33f8d27/leakcanary-android-2.7/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/fac8deee472b2e92e02806bea33f8d27/leakcanary-android-2.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-dynamic-features-fragment:2.3.5] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/acd060ce6ddb4dfcdb1c44b939440c2e/navigation-dynamic-features-fragment-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-dynamic-features-fragment:2.3.5] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/acd060ce6ddb4dfcdb1c44b939440c2e/navigation-dynamic-features-fragment-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/d585a8423e98c7c7d1469eeb404cba9c/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/d585a8423e98c7c7d1469eeb404cba9c/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [io.insert-koin:koin-android-ext:3.0.2] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/6cd6ac7bbaa7fbce0d296ed006540ff9/koin-android-ext-3.0.2/AndroidManifest.xml:5:5-44
+MERGED from [io.insert-koin:koin-android-ext:3.0.2] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/6cd6ac7bbaa7fbce0d296ed006540ff9/koin-android-ext-3.0.2/AndroidManifest.xml:5:5-44
+MERGED from [io.insert-koin:koin-androidx-workmanager:3.0.2] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/c6bcbcc0f82304635bc7b54ae7c89a3d/koin-androidx-workmanager-3.0.2/AndroidManifest.xml:5:5-44
+MERGED from [io.insert-koin:koin-androidx-workmanager:3.0.2] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/c6bcbcc0f82304635bc7b54ae7c89a3d/koin-androidx-workmanager-3.0.2/AndroidManifest.xml:5:5-44
+MERGED from [io.insert-koin:koin-android:3.0.2] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/4c6ecdd27eb31301089d6c42b1fb0a9f/koin-android-3.0.2/AndroidManifest.xml:5:5-44
+MERGED from [io.insert-koin:koin-android:3.0.2] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/4c6ecdd27eb31301089d6c42b1fb0a9f/koin-android-3.0.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.3.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ffdf014befd56baa64e3f975935b21b7/fragment-ktx-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ffdf014befd56baa64e3f975935b21b7/fragment-ktx-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ec60473c9e1156d01fc364634a45f7c6/navigation-ui-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ec60473c9e1156d01fc364634a45f7c6/navigation-ui-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-dynamic-features-runtime:2.3.5] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/46b48e10742b74afc15d18c18b6b8253/navigation-dynamic-features-runtime-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-dynamic-features-runtime:2.3.5] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/46b48e10742b74afc15d18c18b6b8253/navigation-dynamic-features-runtime-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/f24decc510961086dfd1d83571c342f4/navigation-runtime-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/f24decc510961086dfd1d83571c342f4/navigation-runtime-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/09bb71c0e867e79d8985aed13b54dc98/activity-ktx-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/09bb71c0e867e79d8985aed13b54dc98/activity-ktx-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/7c8a06cbafa2afc749b01be391b03348/navigation-common-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/7c8a06cbafa2afc749b01be391b03348/navigation-common-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/a07247f5fe8ff275738e37bd2718e403/core-ktx-1.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/a07247f5fe8ff275738e37bd2718e403/core-ktx-1.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/88a483084d2a124d0ca04f91b616c389/lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/88a483084d2a124d0ca04f91b616c389/lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime-ktx:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/b590045d5470156e508237c22d547dc3/work-runtime-ktx-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime-ktx:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/b590045d5470156e508237c22d547dc3/work-runtime-ktx-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.3.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/b16e200ff321c4956f258e28c9fff074/room-ktx-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.3.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/b16e200ff321c4956f258e28c9fff074/room-ktx-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/da63f76beb14a7fb3bcd4fbfab1d6b71/lifecycle-runtime-ktx-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/da63f76beb14a7fb3bcd4fbfab1d6b71/lifecycle-runtime-ktx-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/4c1b30929e28d52d06095f8fb8099e49/lifecycle-livedata-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/4c1b30929e28d52d06095f8fb8099e49/lifecycle-livedata-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/8e5d4e88fa58111e58d9c194070e9f7f/lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/8e5d4e88fa58111e58d9c194070e9f7f/lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-ktx:2.1.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/0a471edd97d17ebd34c2b1e7ec70990a/sqlite-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-ktx:2.1.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/0a471edd97d17ebd34c2b1e7ec70990a/sqlite-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-androidx:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/11fe2aadfaf2b139a737e5a56cf84e1d/leakcanary-object-watcher-android-androidx-2.7/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-androidx:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/11fe2aadfaf2b139a737e5a56cf84e1d/leakcanary-object-watcher-android-androidx-2.7/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-support-fragments:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/d18dcbce77aa7aa682a1392c3a1a2dd3/leakcanary-object-watcher-android-support-fragments-2.7/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-support-fragments:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/d18dcbce77aa7aa682a1392c3a1a2dd3/leakcanary-object-watcher-android-support-fragments-2.7/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/d3406b6a3a32a84a352f5e467b0ab4ed/leakcanary-object-watcher-android-2.7/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/d3406b6a3a32a84a352f5e467b0ab4ed/leakcanary-object-watcher-android-2.7/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:plumber-android:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/4aaea181a107046cacda2d3710592c51/plumber-android-2.7/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:plumber-android:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/4aaea181a107046cacda2d3710592c51/plumber-android-2.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ea4174d878a7ffc04edfce51289f48a0/savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ea4174d878a7ffc04edfce51289f48a0/savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.leakcanary:leakcanary-android-utils:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/c9380ab44df775b2aa670c923b6bb5d1/leakcanary-android-utils-2.7/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android-utils:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/c9380ab44df775b2aa670c923b6bb5d1/leakcanary-android-utils-2.7/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.curtains:curtains:1.0.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/cdca259fff6037f8d3f8dc19e3018ec9/curtains-1.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.squareup.curtains:curtains:1.0.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/cdca259fff6037f8d3f8dc19e3018ec9/curtains-1.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:lottie:3.4.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/3ece38e5805ea6d7c1ffa6bfb38b6e53/lottie-3.4.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:lottie:3.4.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/3ece38e5805ea6d7c1ffa6bfb38b6e53/lottie-3.4.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/34bf317e4ad09c27f1573e7a633575b2/navigation-ui-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/34bf317e4ad09c27f1573e7a633575b2/navigation-ui-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.3.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/edf47a494eccf497377a198abf6c3631/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/edf47a494eccf497377a198abf6c3631/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/17c88e50d792807417ff7bba87141383/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/17c88e50d792807417ff7bba87141383/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/35580319424d8aeba8aad30354248845/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/35580319424d8aeba8aad30354248845/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/f6f7782a6db0653f20bc44ae21f94847/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/f6f7782a6db0653f20bc44ae21f94847/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ce8af71481393d86d0f44ff514e77dbb/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ce8af71481393d86d0f44ff514e77dbb/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/5c3f04809f56e175ca9810109385cf7a/glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/5c3f04809f56e175ca9810109385cf7a/glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/563a2fce69a3248b6be01bdc5346ce34/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/563a2fce69a3248b6be01bdc5346ce34/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.shimmer:shimmer:0.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/15651895a4d884a868958bd3758b2f06/shimmer-0.5.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.shimmer:shimmer:0.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/15651895a4d884a868958bd3758b2f06/shimmer-0.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.2.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/29e7e711acaf0f18d3c8fa4a7b10fc08/recyclerview-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/29e7e711acaf0f18d3c8fa4a7b10fc08/recyclerview-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/28aa263980d9dc583ed08c0487362454/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/28aa263980d9dc583ed08c0487362454/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/a24e092b7f20b94cab09955ce9a676ef/navigation-fragment-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/a24e092b7f20b94cab09955ce9a676ef/navigation-fragment-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/8a706f77fa6c1b840aef776ad8673dd2/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/8a706f77fa6c1b840aef776ad8673dd2/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/c1abb093e5579c0be9e41ea75eaedaf1/navigation-runtime-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/c1abb093e5579c0be9e41ea75eaedaf1/navigation-runtime-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/dbbf25763263a01aea7744b7dda06baa/activity-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/dbbf25763263a01aea7744b7dda06baa/activity-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/c83bebdb70c0c1821ed61effc9c0ade2/appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/c83bebdb70c0c1821ed61effc9c0ade2/appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/e00b3fea3c90cc30a30fe923b2d6e761/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/e00b3fea3c90cc30a30fe923b2d6e761/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/a3e690d4a6d097835db51e95290cad1c/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/a3e690d4a6d097835db51e95290cad1c/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/82c44aac869e91839e7111bf8202210f/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/82c44aac869e91839e7111bf8202210f/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/03a2a0535bf5bbdaf0745f0c9ae2e6b6/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/03a2a0535bf5bbdaf0745f0c9ae2e6b6/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/662d3e18b7a8fd98bff16c0783cf3c5b/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/662d3e18b7a8fd98bff16c0783cf3c5b/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/a71e807c67e06feb7a68c2996fa4dde9/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/a71e807c67e06feb7a68c2996fa4dde9/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/971a754239c26a344955a809f48a6801/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/971a754239c26a344955a809f48a6801/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/6b579b922c0d254599461597ae720085/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/6b579b922c0d254599461597ae720085/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/5ae045832fd6c0d7c9bc22f0bbd1d707/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/5ae045832fd6c0d7c9bc22f0bbd1d707/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/9d5628ac4230d0b5b9b4cdbc4fdc7fb6/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/9d5628ac4230d0b5b9b4cdbc4fdc7fb6/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/c54c9ec761cb1296e743a8e8d10b8b37/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/c54c9ec761cb1296e743a8e8d10b8b37/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/a3451642183a2c86778ad7a0ebde33fd/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/a3451642183a2c86778ad7a0ebde33fd/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ce3520d7054e4260d778165a436aa78e/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ce3520d7054e4260d778165a436aa78e/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/3e6a4969632d7b66aa213eb0e0f23240/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/3e6a4969632d7b66aa213eb0e0f23240/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/96abd9f96ca9beafe955df0e221e8aef/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/96abd9f96ca9beafe955df0e221e8aef/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.navigation:navigation-common:2.3.5] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/7b667869c06c32d365f16781bbf5ceb4/navigation-common-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.5] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/7b667869c06c32d365f16781bbf5ceb4/navigation-common-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/e6ee6de8666a098d0f7299a87f4f1428/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/e6ee6de8666a098d0f7299a87f4f1428/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/e03ee64429f55321ee0379ad1927620b/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/e03ee64429f55321ee0379ad1927620b/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/1e274188a7106d2e95c5f9b266c22e02/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/1e274188a7106d2e95c5f9b266c22e02/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/2e674751967ec3205ccb7ba7875894c8/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/2e674751967ec3205ccb7ba7875894c8/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/7a1caf3faf827b21f45194071aaee19f/lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/7a1caf3faf827b21f45194071aaee19f/lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/a99e16b1c732082674a72e97b5102aca/lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/a99e16b1c732082674a72e97b5102aca/lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/e59cd4c108948640983e0bf58a24744a/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/e59cd4c108948640983e0bf58a24744a/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/de4af579dea245774f4c92967b31e37b/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/de4af579dea245774f4c92967b31e37b/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/65d72ca59aa15f43ee6a5fe77456cefe/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/65d72ca59aa15f43ee6a5fe77456cefe/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/6a61a05a64daad1762c5216ef443e9a3/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/6a61a05a64daad1762c5216ef443e9a3/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/b4073d1bc68cf8650187668a3b0a2caf/gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/b4073d1bc68cf8650187668a3b0a2caf/gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/c2717b60b09087ebf15da785366de65c/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/c2717b60b09087ebf15da785366de65c/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/03af82de92f7425ae7d769cc0c998d18/lifecycle-livedata-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/03af82de92f7425ae7d769cc0c998d18/lifecycle-livedata-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.3.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/bdfc687db1106a8e49fe2f526986ec97/room-runtime-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.3.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/bdfc687db1106a8e49fe2f526986ec97/room-runtime-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/1e8e31574b762840d07f701dea28a28b/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/1e8e31574b762840d07f701dea28a28b/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/576edaf4f56ba3903e7fdee6eaeb54cc/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/576edaf4f56ba3903e7fdee6eaeb54cc/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/c378a8db87a70d6ac3ba243ad071937c/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/c378a8db87a70d6ac3ba243ad071937c/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/f1b6f617ca575070a9285bc3d336ccad/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/f1b6f617ca575070a9285bc3d336ccad/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/7a9c0125ff88f19996501f33f874091d/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/7a9c0125ff88f19996501f33f874091d/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/23afa6e6bdf3fab0479963bcdb27d613/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/23afa6e6bdf3fab0479963bcdb27d613/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/4af603c5aa22ee47f688bde2aec162a7/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/4af603c5aa22ee47f688bde2aec162a7/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/59cc26f68fa30b395cf51289e947470e/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/59cc26f68fa30b395cf51289e947470e/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [net.zetetic:android-database-sqlcipher:4.4.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/7947aebfe3b9a6280ec892ef5815c87a/android-database-sqlcipher-4.4.0/AndroidManifest.xml:7:5-9:41
+MERGED from [net.zetetic:android-database-sqlcipher:4.4.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/7947aebfe3b9a6280ec892ef5815c87a/android-database-sqlcipher-4.4.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/df66e7d310089f46c747b5a7e349aa68/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/df66e7d310089f46c747b5a7e349aa68/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/6d67f6103fc42e35369c580f198245b4/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/6d67f6103fc42e35369c580f198245b4/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:4:3-70
+MERGED from [com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:4:3-70
+MERGED from [:favorite] /Users/radendimas/AndroidStudioProjects/MADE1.0/favorite/build/intermediates/metadata_feature_manifest/debug/AndroidManifest.xml:9:5-47
+MERGED from [:favorite] /Users/radendimas/AndroidStudioProjects/MADE1.0/favorite/build/intermediates/metadata_feature_manifest/debug/AndroidManifest.xml:9:5-47
+INJECTED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml
+INJECTED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml
+		ADDED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml
+		ADDED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml
+		MERGED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/AndroidManifest.xml
+service#leakcanary.internal.HeapAnalyzerService
+ADDED from [com.squareup.leakcanary:leakcanary-android:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/fac8deee472b2e92e02806bea33f8d27/leakcanary-android-2.7/AndroidManifest.xml:23:9-25:40
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-android:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/fac8deee472b2e92e02806bea33f8d27/leakcanary-android-2.7/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/fac8deee472b2e92e02806bea33f8d27/leakcanary-android-2.7/AndroidManifest.xml:24:13-67
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:23:5-80
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:23:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:24:5-81
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:24:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:26:5-77
+MERGED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:28:5-77
+MERGED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:28:5-77
+MERGED from [com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:8:3-74
+MERGED from [com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:8:3-74
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:26:22-74
+provider#leakcanary.internal.LeakCanaryFileProvider
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:29:9-37:20
+	android:grantUriPermissions
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:33:13-47
+	android:authorities
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:31:13-88
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:30:13-70
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:34:13-36:66
+	android:resource
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:36:17-63
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:35:17-67
+activity#leakcanary.internal.activity.LeakActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:39:9-44:66
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:42:13-71
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:41:13-52
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:44:13-63
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:43:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:40:13-69
+activity-alias#leakcanary.internal.activity.LeakLauncherActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:46:9-63:26
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:49:13-66
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:52:13-71
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:50:13-36
+	android:targetActivity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:53:13-79
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:51:13-52
+	android:banner
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:48:13-59
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:55:13-63
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:54:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:47:13-77
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:android.intent.category.LEANBACK_LAUNCHER
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:56:13-62:29
+category#android.intent.category.LEANBACK_LAUNCHER
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:61:17-86
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:61:27-83
+activity#leakcanary.internal.RequestStoragePermissionActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:65:9-71:68
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:69:13-82
+	android:excludeFromRecents
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:67:13-46
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:68:13-52
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:71:13-65
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:70:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:66:13-80
+receiver#leakcanary.internal.NotificationReceiver
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:73:9-77
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/ebadb6d035f32fb61946ace5762b1240/leakcanary-android-core-2.7/AndroidManifest.xml:73:19-74
+provider#leakcanary.internal.AppWatcherInstaller$MainProcess
+ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/d3406b6a3a32a84a352f5e467b0ab4ed/leakcanary-object-watcher-android-2.7/AndroidManifest.xml:8:9-12:40
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/d3406b6a3a32a84a352f5e467b0ab4ed/leakcanary-object-watcher-android-2.7/AndroidManifest.xml:11:13-69
+	android:authorities
+		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/d3406b6a3a32a84a352f5e467b0ab4ed/leakcanary-object-watcher-android-2.7/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/d3406b6a3a32a84a352f5e467b0ab4ed/leakcanary-object-watcher-android-2.7/AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/d3406b6a3a32a84a352f5e467b0ab4ed/leakcanary-object-watcher-android-2.7/AndroidManifest.xml:9:13-79
+provider#leakcanary.internal.PlumberInstaller
+ADDED from [com.squareup.leakcanary:plumber-android:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/4aaea181a107046cacda2d3710592c51/plumber-android-2.7/AndroidManifest.xml:8:9-12:40
+	android:enabled
+		ADDED from [com.squareup.leakcanary:plumber-android:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/4aaea181a107046cacda2d3710592c51/plumber-android-2.7/AndroidManifest.xml:11:13-69
+	android:authorities
+		ADDED from [com.squareup.leakcanary:plumber-android:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/4aaea181a107046cacda2d3710592c51/plumber-android-2.7/AndroidManifest.xml:10:13-69
+	android:exported
+		ADDED from [com.squareup.leakcanary:plumber-android:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/4aaea181a107046cacda2d3710592c51/plumber-android-2.7/AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:plumber-android:2.7] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/4aaea181a107046cacda2d3710592c51/plumber-android-2.7/AndroidManifest.xml:9:13-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:25:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:26:22-76
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:27:22-78
+provider#androidx.work.impl.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:31:9-37:35
+	android:authorities
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:33:13-68
+	android:multiprocess
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:36:13-40
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:35:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:34:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:32:13-69
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:39:9-44:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:42:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:43:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:44:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:41:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:40:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:45:9-51:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:48:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:49:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:50:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:51:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:47:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:46:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:52:9-57:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:55:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:56:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:57:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:54:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:53:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:59:9-64:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:62:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:63:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:64:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:61:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:60:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:65:9-75:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:68:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:69:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:70:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:67:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:66:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:71:13-74:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:72:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:72:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:73:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:73:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:76:9-86:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:79:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:80:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:81:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:78:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:77:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:82:13-85:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:83:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:83:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:84:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:84:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:87:9-97:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:90:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:91:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:92:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:89:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:88:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:93:13-96:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:94:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:94:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:95:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:95:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:98:9-107:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:101:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:102:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:103:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:100:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:99:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:104:13-106:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:105:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:105:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:108:9-119:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:111:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:112:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:113:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:110:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:109:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:114:13-118:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:115:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:115:25-76
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:116:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:116:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:117:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:117:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:120:9-129:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:123:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:124:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:125:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:122:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:121:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:126:13-128:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:127:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:127:25-95
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:130:9-140:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:133:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:134:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:135:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:136:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:132:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:131:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:137:13-139:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:138:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/703b8e7f1ba7924cda6d363288778b6d/work-runtime-2.5.0/AndroidManifest.xml:138:25-85
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/7a1caf3faf827b21f45194071aaee19f/lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/7a1caf3faf827b21f45194071aaee19f/lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/7a1caf3faf827b21f45194071aaee19f/lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/7a1caf3faf827b21f45194071aaee19f/lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/7a1caf3faf827b21f45194071aaee19f/lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.3.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/bdfc687db1106a8e49fe2f526986ec97/room-runtime-2.3.0/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.3.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/bdfc687db1106a8e49fe2f526986ec97/room-runtime-2.3.0/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.3.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/bdfc687db1106a8e49fe2f526986ec97/room-runtime-2.3.0/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.3.0] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/bdfc687db1106a8e49fe2f526986ec97/room-runtime-2.3.0/AndroidManifest.xml:26:13-74
+activity#com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity
+ADDED from [com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:12:5-271
+	android:process
+		ADDED from [com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:12:152-203
+	android:enabled
+		ADDED from [com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:12:103-126
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:12:240-269
+	android:launchMode
+		ADDED from [com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:12:204-239
+	android:exported
+		ADDED from [com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:12:127-151
+	android:name
+		ADDED from [com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:12:15-102
+activity#com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+ADDED from [com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:13:5-226
+	android:enabled
+		ADDED from [com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:13:96-119
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:13:145-174
+	android:exported
+		ADDED from [com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:13:120-144
+	android:theme
+		ADDED from [com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:13:175-224
+	android:name
+		ADDED from [com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:13:15-95
+service#com.google.android.play.core.assetpacks.AssetPackExtractionService
+ADDED from [com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:16:5-18:15
+	android:enabled
+		ADDED from [com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:16:96-119
+	android:exported
+		ADDED from [com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:16:120-143
+	android:name
+		ADDED from [com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:16:14-95
+meta-data#com.google.android.play.core.assetpacks.versionCode
+ADDED from [com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:17:7-108
+	android:value
+		ADDED from [com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:17:85-106
+	android:name
+		ADDED from [com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:17:18-84
+service#com.google.android.play.core.assetpacks.ExtractionForegroundService
+ADDED from [com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:19:5-147
+	android:enabled
+		ADDED from [com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:19:97-120
+	android:exported
+		ADDED from [com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:19:121-145
+	android:name
+		ADDED from [com.google.android.play:core:1.9.1] /Users/radendimas/.gradle/caches/transforms-2/files-2.1/50685e477ff5c6f4408063fafcad12b3/core-1.9.1/AndroidManifest.xml:19:14-96

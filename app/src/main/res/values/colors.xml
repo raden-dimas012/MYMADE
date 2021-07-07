@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#141A31</color>
+    <color name="colorSecondary">#213665</color>
+    <color name="colorAccent">#5AB7F4</color>
+    <color name="colorTextIcons">#FFFFFF</color>
+    <color name="colorLoading">#FF5252</color>
+    <color name="shimmer">#3c415c</color>
+</resources>

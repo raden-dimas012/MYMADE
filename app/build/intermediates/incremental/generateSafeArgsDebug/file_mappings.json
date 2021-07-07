@@ -1,0 +1,1 @@
+[{"navFile":"src/main/res/navigation/nav_home.xml","javaFiles":["com.dimas.made1.home.content.ContentFragmentDirections","com.dimas.made1.favorite.FavoriteFragmentDirections","com.dimas.made1.explore.ExploreFragmentDirections","com.dimas.made1.detail.DetailFragmentArgs","com.dimas.made1.splashscreen.SplashScreenFragmentDirections"]}]

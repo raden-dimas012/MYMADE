@@ -1,0 +1,23 @@
+com/dimas/made1/core/data/source/local/room/AppDao_Impl.java
+ com.dimas.made1.core.data.source.local.room.AppDao_Impl
+ com.dimas.made1.core.data.source.local.room.AppDao_Impl$1
+ com.dimas.made1.core.data.source.local.room.AppDao_Impl$10
+ com.dimas.made1.core.data.source.local.room.AppDao_Impl$11
+ com.dimas.made1.core.data.source.local.room.AppDao_Impl$12
+ com.dimas.made1.core.data.source.local.room.AppDao_Impl$2
+ com.dimas.made1.core.data.source.local.room.AppDao_Impl$3
+ com.dimas.made1.core.data.source.local.room.AppDao_Impl$4
+ com.dimas.made1.core.data.source.local.room.AppDao_Impl$5
+ com.dimas.made1.core.data.source.local.room.AppDao_Impl$6
+ com.dimas.made1.core.data.source.local.room.AppDao_Impl$7
+ com.dimas.made1.core.data.source.local.room.AppDao_Impl$8
+ com.dimas.made1.core.data.source.local.room.AppDao_Impl$9
+com/dimas/made1/core/data/source/local/room/AppDatabase_Impl.java
+ com.dimas.made1.core.data.source.local.room.AppDatabase_Impl
+ com.dimas.made1.core.data.source.local.room.AppDatabase_Impl$1
+com/dimas/made1/core/databinding/ItemListBinding.java
+ com.dimas.made1.core.databinding.ItemListBinding
+com/dimas/made1/core/databinding/ItemContentBinding.java
+ com.dimas.made1.core.databinding.ItemContentBinding
+com/dimas/made1/core/BuildConfig.java
+ com.dimas.made1.core.BuildConfig

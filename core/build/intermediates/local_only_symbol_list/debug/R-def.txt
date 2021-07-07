@@ -1,0 +1,22 @@
+R_DEF: Internal format may change without notice
+local
+anim list_anim
+color colorAccent
+color colorLoading
+color colorPrimary
+color colorSecondary
+color colorTextIcons
+color shimmer
+drawable ic_broken_image
+drawable ic_load
+drawable ic_rating
+id cv_image
+id img_items
+id iv_content
+id tv_date
+id tv_rating
+id tv_title
+layout item_content
+layout item_list
+string image_content
+string image_list

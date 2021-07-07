@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/radendimas/AndroidStudioProjects/MADE1.0/favorite/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_favorite_movie_tv.xml",
+        "source": "/Users/radendimas/AndroidStudioProjects/MADE1.0/favorite/src/main/res/layout/fragment_favorite_movie_tv.xml"
+    },
+    {
+        "merged": "/Users/radendimas/AndroidStudioProjects/MADE1.0/favorite/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_favorite.xml",
+        "source": "/Users/radendimas/AndroidStudioProjects/MADE1.0/favorite/src/main/res/layout/fragment_favorite.xml"
+    },
+    {
+        "merged": "/Users/radendimas/AndroidStudioProjects/MADE1.0/favorite/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/no_item_favorite.xml",
+        "source": "/Users/radendimas/AndroidStudioProjects/MADE1.0/favorite/src/main/res/layout/no_item_favorite.xml"
+    }
+]
