@@ -1,12 +1,12 @@
 # compiler: R8
 # compiler_version: 2.2.66
 # min_api: 30
-# pg_map_id: d73fc87
+# pg_map_id: ea7a5c0
 # common_typos_disable
 $$ServiceLoaderMethods -> a:
 # {"id":"sourceFile","fileName":"ServiceLoader"}
-    java.util.Iterator $load$28646() -> a
-    java.util.Iterator $load$28650() -> b
+    java.util.Iterator $load$28637() -> a
+    java.util.Iterator $load$28641() -> b
 android.support.v4.app.RemoteActionCompatParcelizer -> android.support.v4.app.RemoteActionCompatParcelizer:
     11:11:void <init>() -> <init>
     13:13:androidx.core.app.RemoteActionCompat read(androidx.versionedparcelable.VersionedParcel) -> read
@@ -23354,15 +23354,11 @@ com.dimas.made1.core.adapter.-$$Lambda$ContentTvAdapter$ContentTvViewHolder$b0W3
 # {"id":"sourceFile","fileName":"lambda"}
     com.dimas.made1.core.adapter.ContentTvAdapter f$0 -> e
     com.dimas.made1.core.domain.model.DataDomain f$1 -> f
-com.dimas.made1.core.adapter.-$$Lambda$MovieAdapter$MovieViewHolder$8UA7ET2Q9NAWTAD0rf9-RUi_Eio -> d.b.a.b.b.c:
+com.dimas.made1.core.adapter.-$$Lambda$MovieTvAdapter$MovieViewHolder$9Ps1WdsvRjgg-8VOR3Ge0T1kUO8 -> d.b.a.b.b.c:
 # {"id":"sourceFile","fileName":"lambda"}
+    com.dimas.made1.core.adapter.MovieTvAdapter f$0 -> e
     com.dimas.made1.core.domain.model.DataDomain f$1 -> f
-    com.dimas.made1.core.adapter.MovieAdapter f$0 -> e
-com.dimas.made1.core.adapter.-$$Lambda$TvAdapter$TvViewHolder$bS4lLu15U0GAJVA3fVxfvcAdrJk -> d.b.a.b.b.d:
-# {"id":"sourceFile","fileName":"lambda"}
-    com.dimas.made1.core.adapter.TvAdapter f$0 -> e
-    com.dimas.made1.core.domain.model.DataDomain f$1 -> f
-com.dimas.made1.core.adapter.ContentMovieAdapter -> d.b.a.b.b.e:
+com.dimas.made1.core.adapter.ContentMovieAdapter -> d.b.a.b.b.d:
     com.dimas.made1.core.adapter.ContentMovieAdapter$OnItemClickCallback onItemClickCallback -> e
     java.util.ArrayList listMovie -> d
     13:15:void <init>() -> <init>
@@ -23374,80 +23370,58 @@ com.dimas.made1.core.adapter.ContentMovieAdapter -> d.b.a.b.b.e:
     13:13:androidx.recyclerview.widget.RecyclerView$ViewHolder onCreateViewHolder(android.view.ViewGroup,int) -> p
     13:13:com.dimas.made1.core.adapter.ContentMovieAdapter$OnItemClickCallback access$getOnItemClickCallback$p(com.dimas.made1.core.adapter.ContentMovieAdapter) -> y
     61:63:void onBindViewHolder(com.dimas.made1.core.adapter.ContentMovieAdapter$ContentMovieViewHolder,int) -> z
-com.dimas.made1.core.adapter.ContentMovieAdapter$ContentMovieViewHolder -> d.b.a.b.b.e$a:
+com.dimas.made1.core.adapter.ContentMovieAdapter$ContentMovieViewHolder -> d.b.a.b.b.d$a:
     com.dimas.made1.core.databinding.ItemContentBinding binding -> u
     com.dimas.made1.core.adapter.ContentMovieAdapter this$0 -> v
     25:26:void <init>(com.dimas.made1.core.adapter.ContentMovieAdapter,com.dimas.made1.core.databinding.ItemContentBinding) -> <init>
     28:40:void bind(com.dimas.made1.core.domain.model.DataDomain) -> N
     37:38:void bind$lambda-2$lambda-1(com.dimas.made1.core.adapter.ContentMovieAdapter,com.dimas.made1.core.domain.model.DataDomain,android.view.View) -> O
     void lambda$AopFwH8M1ZYVtEwjtg32nUdLDvU(com.dimas.made1.core.adapter.ContentMovieAdapter,com.dimas.made1.core.domain.model.DataDomain,android.view.View) -> P
-com.dimas.made1.core.adapter.ContentMovieAdapter$OnItemClickCallback -> d.b.a.b.b.e$b:
+com.dimas.made1.core.adapter.ContentMovieAdapter$OnItemClickCallback -> d.b.a.b.b.d$b:
     void onItemClicked(com.dimas.made1.core.domain.model.DataDomain) -> a
-com.dimas.made1.core.adapter.ContentTvAdapter -> d.b.a.b.b.f:
+com.dimas.made1.core.adapter.ContentTvAdapter -> d.b.a.b.b.e:
     com.dimas.made1.core.adapter.ContentTvAdapter$OnItemClickCallback onItemClickCallback -> e
     java.util.ArrayList listTv -> d
-    14:16:void <init>() -> <init>
+    13:15:void <init>() -> <init>
     55:57:com.dimas.made1.core.adapter.ContentTvAdapter$ContentTvViewHolder onCreateViewHolder(android.view.ViewGroup,int) -> A
-    20:24:void setData(java.util.List) -> B
+    19:23:void setData(java.util.List) -> B
     46:47:void setOnItemClickCallback(com.dimas.made1.core.adapter.ContentTvAdapter$OnItemClickCallback) -> C
-    66:66:int getItemCount() -> g
-    14:14:void onBindViewHolder(androidx.recyclerview.widget.RecyclerView$ViewHolder,int) -> n
-    14:14:androidx.recyclerview.widget.RecyclerView$ViewHolder onCreateViewHolder(android.view.ViewGroup,int) -> p
-    14:14:com.dimas.made1.core.adapter.ContentTvAdapter$OnItemClickCallback access$getOnItemClickCallback$p(com.dimas.made1.core.adapter.ContentTvAdapter) -> y
-    61:64:void onBindViewHolder(com.dimas.made1.core.adapter.ContentTvAdapter$ContentTvViewHolder,int) -> z
-com.dimas.made1.core.adapter.ContentTvAdapter$ContentTvViewHolder -> d.b.a.b.b.f$a:
+    65:65:int getItemCount() -> g
+    13:13:void onBindViewHolder(androidx.recyclerview.widget.RecyclerView$ViewHolder,int) -> n
+    13:13:androidx.recyclerview.widget.RecyclerView$ViewHolder onCreateViewHolder(android.view.ViewGroup,int) -> p
+    13:13:com.dimas.made1.core.adapter.ContentTvAdapter$OnItemClickCallback access$getOnItemClickCallback$p(com.dimas.made1.core.adapter.ContentTvAdapter) -> y
+    61:63:void onBindViewHolder(com.dimas.made1.core.adapter.ContentTvAdapter$ContentTvViewHolder,int) -> z
+com.dimas.made1.core.adapter.ContentTvAdapter$ContentTvViewHolder -> d.b.a.b.b.e$a:
     com.dimas.made1.core.databinding.ItemContentBinding binding -> u
     com.dimas.made1.core.adapter.ContentTvAdapter this$0 -> v
-    26:27:void <init>(com.dimas.made1.core.adapter.ContentTvAdapter,com.dimas.made1.core.databinding.ItemContentBinding) -> <init>
-    29:41:void bind(com.dimas.made1.core.domain.model.DataDomain) -> N
-    38:39:void bind$lambda-2$lambda-1(com.dimas.made1.core.adapter.ContentTvAdapter,com.dimas.made1.core.domain.model.DataDomain,android.view.View) -> O
+    25:26:void <init>(com.dimas.made1.core.adapter.ContentTvAdapter,com.dimas.made1.core.databinding.ItemContentBinding) -> <init>
+    28:40:void bind(com.dimas.made1.core.domain.model.DataDomain) -> N
+    37:38:void bind$lambda-2$lambda-1(com.dimas.made1.core.adapter.ContentTvAdapter,com.dimas.made1.core.domain.model.DataDomain,android.view.View) -> O
     void lambda$b0W3LVR7IdDVnakw6JDp-dxWQ0U(com.dimas.made1.core.adapter.ContentTvAdapter,com.dimas.made1.core.domain.model.DataDomain,android.view.View) -> P
-com.dimas.made1.core.adapter.ContentTvAdapter$OnItemClickCallback -> d.b.a.b.b.f$b:
+com.dimas.made1.core.adapter.ContentTvAdapter$OnItemClickCallback -> d.b.a.b.b.e$b:
     void onItemClicked(com.dimas.made1.core.domain.model.DataDomain) -> a
-com.dimas.made1.core.adapter.MovieAdapter -> d.b.a.b.b.g:
-    com.dimas.made1.core.adapter.MovieAdapter$OnItemClickCallback onItemClickCallback -> e
+com.dimas.made1.core.adapter.MovieTvAdapter -> d.b.a.b.b.f:
+    com.dimas.made1.core.adapter.MovieTvAdapter$OnItemClickCallback onItemClickCallback -> e
     java.util.ArrayList listMovie -> d
     14:16:void <init>() -> <init>
-    68:72:void onBindViewHolder(com.dimas.made1.core.adapter.MovieAdapter$MovieViewHolder,int) -> A
-    62:64:com.dimas.made1.core.adapter.MovieAdapter$MovieViewHolder onCreateViewHolder(android.view.ViewGroup,int) -> B
+    68:72:void onBindViewHolder(com.dimas.made1.core.adapter.MovieTvAdapter$MovieViewHolder,int) -> A
+    62:64:com.dimas.made1.core.adapter.MovieTvAdapter$MovieViewHolder onCreateViewHolder(android.view.ViewGroup,int) -> B
     20:24:void setData(java.util.List) -> C
-    52:53:void setOnItemClickCallback(com.dimas.made1.core.adapter.MovieAdapter$OnItemClickCallback) -> D
+    52:53:void setOnItemClickCallback(com.dimas.made1.core.adapter.MovieTvAdapter$OnItemClickCallback) -> D
     74:74:int getItemCount() -> g
     14:14:void onBindViewHolder(androidx.recyclerview.widget.RecyclerView$ViewHolder,int) -> n
     14:14:androidx.recyclerview.widget.RecyclerView$ViewHolder onCreateViewHolder(android.view.ViewGroup,int) -> p
-    14:14:com.dimas.made1.core.adapter.MovieAdapter$OnItemClickCallback access$getOnItemClickCallback$p(com.dimas.made1.core.adapter.MovieAdapter) -> y
+    14:14:com.dimas.made1.core.adapter.MovieTvAdapter$OnItemClickCallback access$getOnItemClickCallback$p(com.dimas.made1.core.adapter.MovieTvAdapter) -> y
     49:49:com.dimas.made1.core.domain.model.DataDomain getSwipedData(int) -> z
-com.dimas.made1.core.adapter.MovieAdapter$MovieViewHolder -> d.b.a.b.b.g$a:
+com.dimas.made1.core.adapter.MovieTvAdapter$MovieViewHolder -> d.b.a.b.b.f$a:
     com.dimas.made1.core.databinding.ItemListBinding binding -> u
-    com.dimas.made1.core.adapter.MovieAdapter this$0 -> v
-    27:28:void <init>(com.dimas.made1.core.adapter.MovieAdapter,com.dimas.made1.core.databinding.ItemListBinding) -> <init>
+    com.dimas.made1.core.adapter.MovieTvAdapter this$0 -> v
+    27:28:void <init>(com.dimas.made1.core.adapter.MovieTvAdapter,com.dimas.made1.core.databinding.ItemListBinding) -> <init>
     30:46:void bind(com.dimas.made1.core.domain.model.DataDomain) -> N
-    43:44:void bind$lambda-2$lambda-1(com.dimas.made1.core.adapter.MovieAdapter,com.dimas.made1.core.domain.model.DataDomain,android.view.View) -> O
-    void lambda$8UA7ET2Q9NAWTAD0rf9-RUi_Eio(com.dimas.made1.core.adapter.MovieAdapter,com.dimas.made1.core.domain.model.DataDomain,android.view.View) -> P
-com.dimas.made1.core.adapter.MovieAdapter$OnItemClickCallback -> d.b.a.b.b.g$b:
+    43:44:void bind$lambda-2$lambda-1(com.dimas.made1.core.adapter.MovieTvAdapter,com.dimas.made1.core.domain.model.DataDomain,android.view.View) -> O
+    void lambda$9Ps1WdsvRjgg-8VOR3Ge0T1kUO8(com.dimas.made1.core.adapter.MovieTvAdapter,com.dimas.made1.core.domain.model.DataDomain,android.view.View) -> P
+com.dimas.made1.core.adapter.MovieTvAdapter$OnItemClickCallback -> d.b.a.b.b.f$b:
     void onItemClicked(com.dimas.made1.core.domain.model.DataDomain) -> a
-com.dimas.made1.core.adapter.TvAdapter -> d.b.a.b.b.h:
-    com.dimas.made1.core.adapter.TvAdapter$OnItemClickCallback onItemClickCallback -> e
-    java.util.ArrayList listTv -> d
-    16:17:void <init>() -> <init>
-    35:40:void onBindViewHolder(com.dimas.made1.core.adapter.TvAdapter$TvViewHolder,int) -> A
-    29:31:com.dimas.made1.core.adapter.TvAdapter$TvViewHolder onCreateViewHolder(android.view.ViewGroup,int) -> B
-    22:26:void setData(java.util.List) -> C
-    68:69:void setOnItemClickCallback(com.dimas.made1.core.adapter.TvAdapter$OnItemClickCallback) -> D
-    75:75:int getItemCount() -> g
-    16:16:void onBindViewHolder(androidx.recyclerview.widget.RecyclerView$ViewHolder,int) -> n
-    16:16:androidx.recyclerview.widget.RecyclerView$ViewHolder onCreateViewHolder(android.view.ViewGroup,int) -> p
-    16:16:com.dimas.made1.core.adapter.TvAdapter$OnItemClickCallback access$getOnItemClickCallback$p(com.dimas.made1.core.adapter.TvAdapter) -> y
-    64:64:com.dimas.made1.core.domain.model.DataDomain getSwipedData(int) -> z
-com.dimas.made1.core.adapter.TvAdapter$OnItemClickCallback -> d.b.a.b.b.h$a:
-    void onItemClicked(com.dimas.made1.core.domain.model.DataDomain) -> a
-com.dimas.made1.core.adapter.TvAdapter$TvViewHolder -> d.b.a.b.b.h$b:
-    com.dimas.made1.core.databinding.ItemListBinding binding -> u
-    com.dimas.made1.core.adapter.TvAdapter this$0 -> v
-    42:43:void <init>(com.dimas.made1.core.adapter.TvAdapter,com.dimas.made1.core.databinding.ItemListBinding) -> <init>
-    45:61:void bind(com.dimas.made1.core.domain.model.DataDomain) -> N
-    58:59:void bind$lambda-2$lambda-1(com.dimas.made1.core.adapter.TvAdapter,com.dimas.made1.core.domain.model.DataDomain,android.view.View) -> O
-    void lambda$bS4lLu15U0GAJVA3fVxfvcAdrJk(com.dimas.made1.core.adapter.TvAdapter,com.dimas.made1.core.domain.model.DataDomain,android.view.View) -> P
 com.dimas.made1.core.data.repository.-$$Lambda$DataRepository$heWIO8K5ZuLBWnZ_LYI9LmqjDJQ -> d.b.a.b.c.a.a:
 # {"id":"sourceFile","fileName":"lambda"}
     com.dimas.made1.core.data.repository.DataRepository f$0 -> e
@@ -24294,42 +24268,41 @@ com.dimas.made1.explore.content.-$$Lambda$MovieTvFragment$xxXmyUjH1D4Y7tS3N5LEc7
 # {"id":"sourceFile","fileName":"lambda"}
     com.dimas.made1.explore.content.MovieTvFragment f$0 -> e
 com.dimas.made1.explore.content.MovieTvFragment -> d.b.a.f.d.m:
-    kotlin.Lazy toBottom$delegate -> o0
-    com.dimas.made1.core.adapter.MovieAdapter movieAdapter -> h0
-    androidx.lifecycle.Observer tvObserver -> q0
-    androidx.appcompat.widget.SearchView _searchView -> j0
-    androidx.lifecycle.Observer movieObserver -> p0
+    androidx.lifecycle.Observer movieObserver -> o0
+    androidx.lifecycle.Observer tvObserver -> p0
     kotlin.Lazy viewModel$delegate -> f0
     com.dimas.made1.databinding.FragmentMovieTvBinding _binding -> g0
-    com.dimas.made1.core.adapter.TvAdapter tvAdapter -> i0
-    kotlin.Lazy rotateOpen$delegate -> l0
-    boolean clicked -> k0
-    kotlin.Lazy fromBottom$delegate -> n0
+    com.dimas.made1.core.adapter.MovieTvAdapter movieTvAdapter -> h0
+    kotlin.Lazy rotateClose$delegate -> l0
+    kotlin.Lazy rotateOpen$delegate -> k0
+    androidx.appcompat.widget.SearchView _searchView -> i0
+    boolean clicked -> j0
+    kotlin.Lazy toBottom$delegate -> n0
     com.dimas.made1.explore.content.MovieTvFragment$Companion Companion -> e0
-    kotlin.Lazy rotateClose$delegate -> m0
-    33:62:void <clinit>() -> <clinit>
-    31:421:void <init>() -> <init>
-    218:234:void setUpRvMovie() -> A2
-    197:214:void setUpRvTv() -> B2
-    181:185:void setUpViewModelMovie() -> C2
-    188:193:void setUpViewModelTv() -> D2
-    306:321:void setVisibility(boolean) -> E2
-    300:303:void setupSorting() -> F2
-    384:392:void shimmer(boolean) -> G2
-    362:380:void tvObserver$lambda-15(com.dimas.made1.explore.content.MovieTvFragment,com.dimas.made1.core.data.repository.Resource) -> H2
-    29:29:androidx.lifecycle.Observer access$getMovieObserver$p(com.dimas.made1.explore.content.MovieTvFragment) -> O1
-    29:29:androidx.lifecycle.Observer access$getTvObserver$p(com.dimas.made1.explore.content.MovieTvFragment) -> P1
-    84:129:void onViewCreated(android.view.View,android.os.Bundle) -> Q0
-    29:29:com.dimas.made1.explore.content.MovieTvViewModel access$getViewModel(com.dimas.made1.explore.content.MovieTvFragment) -> Q1
-    29:29:void access$setUpViewModelMovie(com.dimas.made1.explore.content.MovieTvFragment) -> R1
-    29:29:void access$setUpViewModelTv(com.dimas.made1.explore.content.MovieTvFragment) -> S1
-    36:36:com.dimas.made1.databinding.FragmentMovieTvBinding getBinding() -> T1
-    56:56:android.view.animation.Animation getFromBottom() -> U1
-    50:50:android.view.animation.Animation getRotateClose() -> V1
-    44:44:android.view.animation.Animation getRotateOpen() -> W1
-    40:40:androidx.appcompat.widget.SearchView getSearchView() -> X1
-    62:62:android.view.animation.Animation getToBottom() -> Y1
-    33:33:com.dimas.made1.explore.content.MovieTvViewModel getViewModel() -> Z1
+    kotlin.Lazy fromBottom$delegate -> m0
+    32:60:void <clinit>() -> <clinit>
+    30:418:void <init>() -> <init>
+    215:231:void setUpRvMovie() -> A2
+    194:211:void setUpRvTv() -> B2
+    178:182:void setUpViewModelMovie() -> C2
+    185:190:void setUpViewModelTv() -> D2
+    303:318:void setVisibility(boolean) -> E2
+    297:300:void setupSorting() -> F2
+    381:389:void shimmer(boolean) -> G2
+    359:377:void tvObserver$lambda-15(com.dimas.made1.explore.content.MovieTvFragment,com.dimas.made1.core.data.repository.Resource) -> H2
+    28:28:androidx.lifecycle.Observer access$getMovieObserver$p(com.dimas.made1.explore.content.MovieTvFragment) -> O1
+    28:28:androidx.lifecycle.Observer access$getTvObserver$p(com.dimas.made1.explore.content.MovieTvFragment) -> P1
+    82:126:void onViewCreated(android.view.View,android.os.Bundle) -> Q0
+    28:28:com.dimas.made1.explore.content.MovieTvViewModel access$getViewModel(com.dimas.made1.explore.content.MovieTvFragment) -> Q1
+    28:28:void access$setUpViewModelMovie(com.dimas.made1.explore.content.MovieTvFragment) -> R1
+    28:28:void access$setUpViewModelTv(com.dimas.made1.explore.content.MovieTvFragment) -> S1
+    35:35:com.dimas.made1.databinding.FragmentMovieTvBinding getBinding() -> T1
+    54:54:android.view.animation.Animation getFromBottom() -> U1
+    48:48:android.view.animation.Animation getRotateClose() -> V1
+    42:42:android.view.animation.Animation getRotateOpen() -> W1
+    38:38:androidx.appcompat.widget.SearchView getSearchView() -> X1
+    60:60:android.view.animation.Animation getToBottom() -> Y1
+    32:32:com.dimas.made1.explore.content.MovieTvViewModel getViewModel() -> Z1
     void lambda$-tgfGh6aMVqCfZGtMEMH0R4O1lE(com.dimas.made1.explore.content.MovieTvFragment,android.view.View) -> a2
     void lambda$0aE-2H2CiKFZkZm1RcGfB7YNWBg(com.dimas.made1.explore.content.MovieTvFragment,android.view.View) -> b2
     void lambda$CwIvO_6PlRDx4BhM6kizPs9OkTY(com.dimas.made1.explore.content.MovieTvFragment,android.view.View) -> c2
@@ -24342,69 +24315,69 @@ com.dimas.made1.explore.content.MovieTvFragment -> d.b.a.f.d.m:
     void lambda$lulIU2EhqmXRP5216YnRQwl-_ys(com.dimas.made1.explore.content.MovieTvFragment,java.util.List) -> j2
     void lambda$xFjDxvpAa3UkkD4G-joIcUDGKtU(com.dimas.made1.explore.content.MovieTvFragment,com.dimas.made1.core.data.repository.Resource) -> k2
     void lambda$xxXmyUjH1D4Y7tS3N5LEc7bH8AU(com.dimas.made1.explore.content.MovieTvFragment,android.view.View) -> l2
-    340:359:void movieObserver$lambda-14(com.dimas.made1.explore.content.MovieTvFragment,com.dimas.made1.core.data.repository.Resource) -> m2
-    92:104:void onViewCreated$lambda-0(com.dimas.made1.explore.content.MovieTvFragment,java.util.List) -> n2
-    110:122:void onViewCreated$lambda-1(com.dimas.made1.explore.content.MovieTvFragment,java.util.List) -> o2
-    325:337:void setAnimation(boolean) -> p2
-    237:267:void setMovieSorting() -> q2
-    70:72:void onCreate(android.os.Bundle) -> r0
-    238:239:void setMovieSorting$lambda-6(com.dimas.made1.explore.content.MovieTvFragment,android.view.View) -> r2
-    242:248:void setMovieSorting$lambda-7(com.dimas.made1.explore.content.MovieTvFragment,android.view.View) -> s2
-    251:257:void setMovieSorting$lambda-8(com.dimas.made1.explore.content.MovieTvFragment,android.view.View) -> t2
-    132:178:void onCreateOptionsMenu(android.view.Menu,android.view.MenuInflater) -> u0
-    260:266:void setMovieSorting$lambda-9(com.dimas.made1.explore.content.MovieTvFragment,android.view.View) -> u2
-    79:80:android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle) -> v0
-    270:297:void setTvSorting() -> v2
-    271:272:void setTvSorting$lambda-10(com.dimas.made1.explore.content.MovieTvFragment,android.view.View) -> w2
-    274:280:void setTvSorting$lambda-11(com.dimas.made1.explore.content.MovieTvFragment,android.view.View) -> x2
-    396:401:void onDestroyView() -> y0
-    282:288:void setTvSorting$lambda-12(com.dimas.made1.explore.content.MovieTvFragment,android.view.View) -> y2
-    290:296:void setTvSorting$lambda-13(com.dimas.made1.explore.content.MovieTvFragment,android.view.View) -> z2
+    337:356:void movieObserver$lambda-14(com.dimas.made1.explore.content.MovieTvFragment,com.dimas.made1.core.data.repository.Resource) -> m2
+    89:101:void onViewCreated$lambda-0(com.dimas.made1.explore.content.MovieTvFragment,java.util.List) -> n2
+    107:119:void onViewCreated$lambda-1(com.dimas.made1.explore.content.MovieTvFragment,java.util.List) -> o2
+    322:334:void setAnimation(boolean) -> p2
+    234:264:void setMovieSorting() -> q2
+    68:70:void onCreate(android.os.Bundle) -> r0
+    235:236:void setMovieSorting$lambda-6(com.dimas.made1.explore.content.MovieTvFragment,android.view.View) -> r2
+    239:245:void setMovieSorting$lambda-7(com.dimas.made1.explore.content.MovieTvFragment,android.view.View) -> s2
+    248:254:void setMovieSorting$lambda-8(com.dimas.made1.explore.content.MovieTvFragment,android.view.View) -> t2
+    129:175:void onCreateOptionsMenu(android.view.Menu,android.view.MenuInflater) -> u0
+    257:263:void setMovieSorting$lambda-9(com.dimas.made1.explore.content.MovieTvFragment,android.view.View) -> u2
+    77:78:android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle) -> v0
+    267:294:void setTvSorting() -> v2
+    268:269:void setTvSorting$lambda-10(com.dimas.made1.explore.content.MovieTvFragment,android.view.View) -> w2
+    271:277:void setTvSorting$lambda-11(com.dimas.made1.explore.content.MovieTvFragment,android.view.View) -> x2
+    393:398:void onDestroyView() -> y0
+    279:285:void setTvSorting$lambda-12(com.dimas.made1.explore.content.MovieTvFragment,android.view.View) -> y2
+    287:293:void setTvSorting$lambda-13(com.dimas.made1.explore.content.MovieTvFragment,android.view.View) -> z2
 com.dimas.made1.explore.content.MovieTvFragment$Companion -> d.b.a.f.d.m$a:
-    403:403:void <init>() -> <init>
-    406:410:com.dimas.made1.explore.content.MovieTvFragment newInstance(boolean) -> a
+    400:400:void <init>() -> <init>
+    403:407:com.dimas.made1.explore.content.MovieTvFragment newInstance(boolean) -> a
 com.dimas.made1.explore.content.MovieTvFragment$fromBottom$2 -> d.b.a.f.d.m$b:
     com.dimas.made1.explore.content.MovieTvFragment this$0 -> f
-    57:59:android.view.animation.Animation invoke() -> a
-    56:56:java.lang.Object invoke() -> c
+    55:57:android.view.animation.Animation invoke() -> a
+    54:54:java.lang.Object invoke() -> c
 com.dimas.made1.explore.content.MovieTvFragment$onCreateOptionsMenu$1 -> d.b.a.f.d.m$c:
     com.dimas.made1.explore.content.MovieTvFragment this$0 -> a
-    140:140:void <init>(com.dimas.made1.explore.content.MovieTvFragment) -> <init>
-    147:154:boolean onQueryTextChange(java.lang.String) -> a
-    143:143:boolean onQueryTextSubmit(java.lang.String) -> b
+    137:137:void <init>(com.dimas.made1.explore.content.MovieTvFragment) -> <init>
+    144:151:boolean onQueryTextChange(java.lang.String) -> a
+    140:140:boolean onQueryTextSubmit(java.lang.String) -> b
 com.dimas.made1.explore.content.MovieTvFragment$onCreateOptionsMenu$2 -> d.b.a.f.d.m$d:
     com.dimas.made1.explore.content.MovieTvFragment this$0 -> a
-    159:159:void <init>(com.dimas.made1.explore.content.MovieTvFragment) -> <init>
-    166:173:boolean onQueryTextChange(java.lang.String) -> a
-    162:162:boolean onQueryTextSubmit(java.lang.String) -> b
+    156:156:void <init>(com.dimas.made1.explore.content.MovieTvFragment) -> <init>
+    163:170:boolean onQueryTextChange(java.lang.String) -> a
+    159:159:boolean onQueryTextSubmit(java.lang.String) -> b
 com.dimas.made1.explore.content.MovieTvFragment$rotateClose$2 -> d.b.a.f.d.m$e:
     com.dimas.made1.explore.content.MovieTvFragment this$0 -> f
-    51:53:android.view.animation.Animation invoke() -> a
-    50:50:java.lang.Object invoke() -> c
+    49:51:android.view.animation.Animation invoke() -> a
+    48:48:java.lang.Object invoke() -> c
 com.dimas.made1.explore.content.MovieTvFragment$rotateOpen$2 -> d.b.a.f.d.m$f:
     com.dimas.made1.explore.content.MovieTvFragment this$0 -> f
-    45:47:android.view.animation.Animation invoke() -> a
-    44:44:java.lang.Object invoke() -> c
+    43:45:android.view.animation.Animation invoke() -> a
+    42:42:java.lang.Object invoke() -> c
 com.dimas.made1.explore.content.MovieTvFragment$setUpRvMovie$2 -> d.b.a.f.d.m$g:
     com.dimas.made1.explore.content.MovieTvFragment this$0 -> a
-    225:225:void <init>(com.dimas.made1.explore.content.MovieTvFragment) -> <init>
-    227:232:void onItemClicked(com.dimas.made1.core.domain.model.DataDomain) -> a
+    222:222:void <init>(com.dimas.made1.explore.content.MovieTvFragment) -> <init>
+    224:229:void onItemClicked(com.dimas.made1.core.domain.model.DataDomain) -> a
 com.dimas.made1.explore.content.MovieTvFragment$setUpRvTv$2 -> d.b.a.f.d.m$h:
     com.dimas.made1.explore.content.MovieTvFragment this$0 -> a
-    205:205:void <init>(com.dimas.made1.explore.content.MovieTvFragment) -> <init>
-    207:212:void onItemClicked(com.dimas.made1.core.domain.model.DataDomain) -> a
+    202:202:void <init>(com.dimas.made1.explore.content.MovieTvFragment) -> <init>
+    204:209:void onItemClicked(com.dimas.made1.core.domain.model.DataDomain) -> a
 com.dimas.made1.explore.content.MovieTvFragment$setUpViewModelMovie$1 -> d.b.a.f.d.m$i:
     int label -> i
     com.dimas.made1.explore.content.MovieTvFragment this$0 -> j
     kotlin.coroutines.Continuation create(java.lang.Object,kotlin.coroutines.Continuation) -> d
-    181:184:java.lang.Object invokeSuspend(java.lang.Object) -> m
+    178:181:java.lang.Object invokeSuspend(java.lang.Object) -> m
     java.lang.Object invoke(kotlinx.coroutines.CoroutineScope,kotlin.coroutines.Continuation) -> p
     java.lang.Object invoke(java.lang.Object,java.lang.Object) -> w
 com.dimas.made1.explore.content.MovieTvFragment$setUpViewModelTv$1 -> d.b.a.f.d.m$j:
     int label -> i
     com.dimas.made1.explore.content.MovieTvFragment this$0 -> j
     kotlin.coroutines.Continuation create(java.lang.Object,kotlin.coroutines.Continuation) -> d
-    188:191:java.lang.Object invokeSuspend(java.lang.Object) -> m
+    185:188:java.lang.Object invokeSuspend(java.lang.Object) -> m
     java.lang.Object invoke(kotlinx.coroutines.CoroutineScope,kotlin.coroutines.Continuation) -> p
     java.lang.Object invoke(java.lang.Object,java.lang.Object) -> w
 com.dimas.made1.explore.content.MovieTvFragment$special$$inlined$viewModel$default$1 -> d.b.a.f.d.m$k:
@@ -24415,8 +24388,8 @@ com.dimas.made1.explore.content.MovieTvFragment$special$$inlined$viewModel$defau
     40:40:java.lang.Object invoke() -> c
 com.dimas.made1.explore.content.MovieTvFragment$toBottom$2 -> d.b.a.f.d.m$l:
     com.dimas.made1.explore.content.MovieTvFragment this$0 -> f
-    63:65:android.view.animation.Animation invoke() -> a
-    62:62:java.lang.Object invoke() -> c
+    61:63:android.view.animation.Animation invoke() -> a
+    60:60:java.lang.Object invoke() -> c
 com.dimas.made1.explore.content.MovieTvViewModel -> d.b.a.f.d.n:
     kotlinx.coroutines.channels.ConflatedBroadcastChannel queryChannel -> d
     com.dimas.made1.core.domain.usecase.DataUseCase dataUseCase -> c
@@ -24504,15 +24477,15 @@ com.dimas.made1.favorite.FavoriteSectionsPagerAdapter -> d.b.a.g.c:
     8:9:void <init>(androidx.fragment.app.Fragment,int) -> <init>
     14:17:androidx.fragment.app.Fragment createFragment(int) -> A
     11:11:int getItemCount() -> g
-com.dimas.made1.favorite.content.-$$Lambda$FavoriteMovieTvFragment$DW4OLLhyo9_jzv4-g2C1hWRenaQ -> d.b.a.g.d.a:
+com.dimas.made1.favorite.content.-$$Lambda$FavoriteMovieTvFragment$QJkxTlayaGRYzFXpFT6Frs3AnKg -> d.b.a.g.d.a:
 # {"id":"sourceFile","fileName":"lambda"}
-    com.dimas.made1.core.adapter.TvAdapter f$1 -> b
     com.dimas.made1.favorite.content.FavoriteMovieTvFragment f$0 -> a
+    com.dimas.made1.core.adapter.MovieTvAdapter f$1 -> b
     void onChanged(java.lang.Object) -> a
-com.dimas.made1.favorite.content.-$$Lambda$FavoriteMovieTvFragment$cQuvU3BWOVHpvw3tlkWVYIJk3hE -> d.b.a.g.d.b:
+com.dimas.made1.favorite.content.-$$Lambda$FavoriteMovieTvFragment$f-OuKmgc3I3cm9UZiUTgUzr5rbI -> d.b.a.g.d.b:
 # {"id":"sourceFile","fileName":"lambda"}
-    com.dimas.made1.core.adapter.MovieAdapter f$1 -> b
     com.dimas.made1.favorite.content.FavoriteMovieTvFragment f$0 -> a
+    com.dimas.made1.core.adapter.MovieTvAdapter f$1 -> b
     void onChanged(java.lang.Object) -> a
 com.dimas.made1.favorite.content.-$$Lambda$FavoriteMovieTvFragment$itemTouchHelper$1$LHythP1ZeZcwCDonYTQuY5SopQQ -> d.b.a.g.d.c:
 # {"id":"sourceFile","fileName":"lambda"}
@@ -24529,44 +24502,44 @@ com.dimas.made1.favorite.content.FavoriteMovieTvFragment -> d.b.a.g.d.e:
     com.dimas.made1.favorite.content.FavoriteMovieTvFragment$Companion Companion -> e0
     androidx.recyclerview.widget.ItemTouchHelper itemTouchHelper -> h0
     com.dimas.made1.favorite.databinding.FragmentFavoriteMovieTvBinding _binding -> g0
-    24:24:void <clinit>() -> <clinit>
-    23:238:void <init>() -> <init>
-    23:23:com.dimas.made1.favorite.content.FavoriteMovieTvViewModel access$getViewModel(com.dimas.made1.favorite.content.FavoriteMovieTvFragment) -> O1
-    115:129:void favState(com.dimas.made1.utils.DataState) -> P1
-    40:71:void onViewCreated(android.view.View,android.os.Bundle) -> Q0
-    27:27:com.dimas.made1.favorite.databinding.FragmentFavoriteMovieTvBinding getBinding() -> Q1
-    24:24:com.dimas.made1.favorite.content.FavoriteMovieTvViewModel getViewModel() -> R1
-    void lambda$DW4OLLhyo9_jzv4-g2C1hWRenaQ(com.dimas.made1.favorite.content.FavoriteMovieTvFragment,com.dimas.made1.core.adapter.TvAdapter,java.util.List) -> S1
-    void lambda$cQuvU3BWOVHpvw3tlkWVYIJk3hE(com.dimas.made1.favorite.content.FavoriteMovieTvFragment,com.dimas.made1.core.adapter.MovieAdapter,java.util.List) -> T1
-    132:137:void loading(boolean) -> U1
-    140:156:void notFound(boolean) -> V1
-    51:57:void onViewCreated$lambda-0(com.dimas.made1.favorite.content.FavoriteMovieTvFragment,com.dimas.made1.core.adapter.MovieAdapter,java.util.List) -> W1
-    62:68:void onViewCreated$lambda-1(com.dimas.made1.favorite.content.FavoriteMovieTvFragment,com.dimas.made1.core.adapter.TvAdapter,java.util.List) -> X1
-    74:90:void setupRvFavMovie(com.dimas.made1.core.adapter.MovieAdapter) -> Y1
-    94:111:void setupRvFavTv(com.dimas.made1.core.adapter.TvAdapter) -> Z1
-    34:35:android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle) -> v0
-    213:217:void onDestroyView() -> y0
+    23:23:void <clinit>() -> <clinit>
+    22:236:void <init>() -> <init>
+    22:22:com.dimas.made1.favorite.content.FavoriteMovieTvViewModel access$getViewModel(com.dimas.made1.favorite.content.FavoriteMovieTvFragment) -> O1
+    113:127:void favState(com.dimas.made1.utils.DataState) -> P1
+    39:69:void onViewCreated(android.view.View,android.os.Bundle) -> Q0
+    26:26:com.dimas.made1.favorite.databinding.FragmentFavoriteMovieTvBinding getBinding() -> Q1
+    23:23:com.dimas.made1.favorite.content.FavoriteMovieTvViewModel getViewModel() -> R1
+    void lambda$QJkxTlayaGRYzFXpFT6Frs3AnKg(com.dimas.made1.favorite.content.FavoriteMovieTvFragment,com.dimas.made1.core.adapter.MovieTvAdapter,java.util.List) -> S1
+    void lambda$f-OuKmgc3I3cm9UZiUTgUzr5rbI(com.dimas.made1.favorite.content.FavoriteMovieTvFragment,com.dimas.made1.core.adapter.MovieTvAdapter,java.util.List) -> T1
+    130:135:void loading(boolean) -> U1
+    138:154:void notFound(boolean) -> V1
+    49:55:void onViewCreated$lambda-0(com.dimas.made1.favorite.content.FavoriteMovieTvFragment,com.dimas.made1.core.adapter.MovieTvAdapter,java.util.List) -> W1
+    60:66:void onViewCreated$lambda-1(com.dimas.made1.favorite.content.FavoriteMovieTvFragment,com.dimas.made1.core.adapter.MovieTvAdapter,java.util.List) -> X1
+    72:88:void setupRvFavMovie(com.dimas.made1.core.adapter.MovieTvAdapter) -> Y1
+    92:109:void setupRvFavTv(com.dimas.made1.core.adapter.MovieTvAdapter) -> Z1
+    33:34:android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle) -> v0
+    211:215:void onDestroyView() -> y0
 com.dimas.made1.favorite.content.FavoriteMovieTvFragment$Companion -> d.b.a.g.d.e$a:
-    220:220:void <init>() -> <init>
-    223:227:com.dimas.made1.favorite.content.FavoriteMovieTvFragment newInstance(boolean) -> a
+    218:218:void <init>() -> <init>
+    221:225:com.dimas.made1.favorite.content.FavoriteMovieTvFragment newInstance(boolean) -> a
 com.dimas.made1.favorite.content.FavoriteMovieTvFragment$itemTouchHelper$1 -> d.b.a.g.d.e$b:
     com.dimas.made1.favorite.content.FavoriteMovieTvFragment this$0 -> d
-    158:158:void <init>(com.dimas.made1.favorite.content.FavoriteMovieTvFragment) -> <init>
-    172:233:void onSwiped(androidx.recyclerview.widget.RecyclerView$ViewHolder,int) -> B
+    156:156:void <init>(com.dimas.made1.favorite.content.FavoriteMovieTvFragment) -> <init>
+    170:231:void onSwiped(androidx.recyclerview.widget.RecyclerView$ViewHolder,int) -> B
     void lambda$LHythP1ZeZcwCDonYTQuY5SopQQ(com.dimas.made1.core.domain.model.DataDomain,com.dimas.made1.favorite.content.FavoriteMovieTvFragment,kotlin.jvm.internal.Ref$BooleanRef,android.view.View) -> C
     void lambda$kDQLb7Qmn0Ocp2eUXQIqV-LbHcY(com.dimas.made1.core.domain.model.DataDomain,com.dimas.made1.favorite.content.FavoriteMovieTvFragment,kotlin.jvm.internal.Ref$BooleanRef,android.view.View) -> D
-    187:233:void onSwiped$lambda-2(com.dimas.made1.core.domain.model.DataDomain,com.dimas.made1.favorite.content.FavoriteMovieTvFragment,kotlin.jvm.internal.Ref$BooleanRef,android.view.View) -> E
-    203:233:void onSwiped$lambda-5(com.dimas.made1.core.domain.model.DataDomain,com.dimas.made1.favorite.content.FavoriteMovieTvFragment,kotlin.jvm.internal.Ref$BooleanRef,android.view.View) -> F
-    163:163:int getMovementFlags(androidx.recyclerview.widget.RecyclerView,androidx.recyclerview.widget.RecyclerView$ViewHolder) -> k
-    169:169:boolean onMove(androidx.recyclerview.widget.RecyclerView,androidx.recyclerview.widget.RecyclerView$ViewHolder,androidx.recyclerview.widget.RecyclerView$ViewHolder) -> y
+    185:231:void onSwiped$lambda-2(com.dimas.made1.core.domain.model.DataDomain,com.dimas.made1.favorite.content.FavoriteMovieTvFragment,kotlin.jvm.internal.Ref$BooleanRef,android.view.View) -> E
+    201:231:void onSwiped$lambda-5(com.dimas.made1.core.domain.model.DataDomain,com.dimas.made1.favorite.content.FavoriteMovieTvFragment,kotlin.jvm.internal.Ref$BooleanRef,android.view.View) -> F
+    161:161:int getMovementFlags(androidx.recyclerview.widget.RecyclerView,androidx.recyclerview.widget.RecyclerView$ViewHolder) -> k
+    167:167:boolean onMove(androidx.recyclerview.widget.RecyclerView,androidx.recyclerview.widget.RecyclerView$ViewHolder,androidx.recyclerview.widget.RecyclerView$ViewHolder) -> y
 com.dimas.made1.favorite.content.FavoriteMovieTvFragment$setupRvFavMovie$2 -> d.b.a.g.d.e$c:
     com.dimas.made1.favorite.content.FavoriteMovieTvFragment this$0 -> a
-    81:81:void <init>(com.dimas.made1.favorite.content.FavoriteMovieTvFragment) -> <init>
-    83:88:void onItemClicked(com.dimas.made1.core.domain.model.DataDomain) -> a
+    79:79:void <init>(com.dimas.made1.favorite.content.FavoriteMovieTvFragment) -> <init>
+    81:86:void onItemClicked(com.dimas.made1.core.domain.model.DataDomain) -> a
 com.dimas.made1.favorite.content.FavoriteMovieTvFragment$setupRvFavTv$2 -> d.b.a.g.d.e$d:
     com.dimas.made1.favorite.content.FavoriteMovieTvFragment this$0 -> a
-    102:102:void <init>(com.dimas.made1.favorite.content.FavoriteMovieTvFragment) -> <init>
-    104:109:void onItemClicked(com.dimas.made1.core.domain.model.DataDomain) -> a
+    100:100:void <init>(com.dimas.made1.favorite.content.FavoriteMovieTvFragment) -> <init>
+    102:107:void onItemClicked(com.dimas.made1.core.domain.model.DataDomain) -> a
 com.dimas.made1.favorite.content.FavoriteMovieTvFragment$special$$inlined$viewModel$default$1 -> d.b.a.g.d.e$e:
     kotlin.jvm.functions.Function0 $parameters -> h
     androidx.lifecycle.ViewModelStoreOwner $this_viewModel -> f

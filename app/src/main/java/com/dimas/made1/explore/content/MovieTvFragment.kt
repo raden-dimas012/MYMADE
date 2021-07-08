@@ -13,8 +13,7 @@ import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.dimas.made1.R
 import com.dimas.made1.base.BaseNavigationFragment
-import com.dimas.made1.core.adapter.MovieAdapter
-import com.dimas.made1.core.adapter.TvAdapter
+import com.dimas.made1.core.adapter.MovieTvAdapter
 import com.dimas.made1.core.data.repository.Resource
 import com.dimas.made1.core.domain.model.DataDomain
 import com.dimas.made1.core.utils.Sorting
@@ -34,8 +33,7 @@ class MovieTvFragment : BaseNavigationFragment() {
 
     private var _binding: FragmentMovieTvBinding? = null
     private val binding get() = _binding
-    private lateinit var movieAdapter: MovieAdapter
-    private lateinit var tvAdapter: TvAdapter
+    private lateinit var movieTvAdapter: MovieTvAdapter
     private var _searchView: SearchView? = null
     private val searchView get() = _searchView
     private var clicked = false
@@ -83,8 +81,7 @@ class MovieTvFragment : BaseNavigationFragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        tvAdapter = TvAdapter()
-        movieAdapter = MovieAdapter()
+        movieTvAdapter = MovieTvAdapter()
         val content = arguments?.getBoolean(DATA_CONTENT)
 
         if (content == false) {
@@ -99,7 +96,7 @@ class MovieTvFragment : BaseNavigationFragment() {
                     } else {
                         binding?.notFound?.root?.visibility = View.GONE
                     }
-                    movieAdapter.setData(it)
+                    movieTvAdapter.setData(it)
                 }
             })
             setUpViewModelMovie()
@@ -117,7 +114,7 @@ class MovieTvFragment : BaseNavigationFragment() {
                     } else {
                         binding?.notFound?.root?.visibility = View.GONE
                     }
-                    tvAdapter.setData(it)
+                    movieTvAdapter.setData(it)
                 }
             })
 
@@ -198,15 +195,15 @@ class MovieTvFragment : BaseNavigationFragment() {
             with(this?.rvMovieTv) {
                 this?.layoutManager = LinearLayoutManager(context)
                 this?.setHasFixedSize(true)
-                this?.adapter = tvAdapter
+                this?.adapter = movieTvAdapter
             }
         }
 
-        tvAdapter.setOnItemClickCallback(object : TvAdapter.OnItemClickCallback {
-            override fun onItemClicked(tv: DataDomain) {
+        movieTvAdapter.setOnItemClickCallback(object : MovieTvAdapter.OnItemClickCallback {
+            override fun onItemClicked(movieTv: DataDomain) {
                 navigateWithAction(
                     ExploreFragmentDirections.actionExploreFragmentToNavDetail(
-                        "tv", tv
+                        "tv", movieTv
                     )
                 )
             }
@@ -219,14 +216,14 @@ class MovieTvFragment : BaseNavigationFragment() {
             with(this?.rvMovieTv) {
                 this?.layoutManager = LinearLayoutManager(context)
                 this?.setHasFixedSize(true)
-                this?.adapter = movieAdapter
+                this?.adapter = movieTvAdapter
             }
         }
-        movieAdapter.setOnItemClickCallback(object : MovieAdapter.OnItemClickCallback {
-            override fun onItemClicked(movie: DataDomain) {
+        movieTvAdapter.setOnItemClickCallback(object : MovieTvAdapter.OnItemClickCallback {
+            override fun onItemClicked(movieTv: DataDomain) {
                 navigateWithAction(
                     ExploreFragmentDirections.actionExploreFragmentToNavDetail(
-                        "movie", movie
+                        "movie", movieTv
                     )
                 )
             }
@@ -346,7 +343,7 @@ class MovieTvFragment : BaseNavigationFragment() {
                 is Resource.Success -> {
                     shimmer(false)
                     binding?.notFound?.root?.visibility = View.GONE
-                    movieAdapter.setData(listMovies.data)
+                    movieTvAdapter.setData(listMovies.data)
                 }
                 is Resource.Error -> {
                     shimmer(false)
@@ -368,7 +365,7 @@ class MovieTvFragment : BaseNavigationFragment() {
                 is Resource.Success -> {
                     shimmer(false)
                     binding?.notFound?.root?.visibility = View.GONE
-                    tvAdapter.setData(listTv.data)
+                    movieTvAdapter.setData(listTv.data)
                 }
                 is Resource.Error -> {
                     shimmer(false)

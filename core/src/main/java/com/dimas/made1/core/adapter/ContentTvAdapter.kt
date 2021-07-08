@@ -10,7 +10,6 @@ import com.dimas.made1.core.R
 import com.dimas.made1.core.databinding.ItemContentBinding
 import com.dimas.made1.core.domain.model.DataDomain
 
-
 class ContentTvAdapter : RecyclerView.Adapter<ContentTvAdapter.ContentTvViewHolder>() {
 
     private var listTv = ArrayList<DataDomain>()
@@ -39,6 +38,7 @@ class ContentTvAdapter : RecyclerView.Adapter<ContentTvAdapter.ContentTvViewHold
                 }
             }
         }
+
     }
 
 
@@ -59,7 +59,6 @@ class ContentTvAdapter : RecyclerView.Adapter<ContentTvAdapter.ContentTvViewHold
 
     override fun onBindViewHolder(holder: ContentTvViewHolder, position: Int) {
         val tv = listTv[position]
-
         holder.bind(tv)
     }
 

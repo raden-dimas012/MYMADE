@@ -16,20 +16,20 @@
         "source": "/Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/res/navigation/nav_home.xml"
     },
     {
-        "merged": "/Users/radendimas/AndroidStudioProjects/MADE1.0/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
-    },
-    {
         "merged": "/Users/radendimas/AndroidStudioProjects/MADE1.0/app/build/intermediates/res/merged/debug/drawable_ic_vote.xml.flat",
         "source": "/Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/res/drawable/ic_vote.xml"
     },
     {
-        "merged": "/Users/radendimas/AndroidStudioProjects/MADE1.0/app/build/intermediates/res/merged/debug/menu_searching_menu.xml.flat",
-        "source": "/Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/res/menu/searching_menu.xml"
+        "merged": "/Users/radendimas/AndroidStudioProjects/MADE1.0/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
         "merged": "/Users/radendimas/AndroidStudioProjects/MADE1.0/app/build/intermediates/res/merged/debug/menu_bottom_menu.xml.flat",
         "source": "/Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/res/menu/bottom_menu.xml"
+    },
+    {
+        "merged": "/Users/radendimas/AndroidStudioProjects/MADE1.0/app/build/intermediates/res/merged/debug/menu_searching_menu.xml.flat",
+        "source": "/Users/radendimas/AndroidStudioProjects/MADE1.0/app/src/main/res/menu/searching_menu.xml"
     },
     {
         "merged": "/Users/radendimas/AndroidStudioProjects/MADE1.0/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_splash.png.flat",

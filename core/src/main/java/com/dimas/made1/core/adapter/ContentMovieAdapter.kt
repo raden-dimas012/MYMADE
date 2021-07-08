@@ -24,17 +24,17 @@ class ContentMovieAdapter : RecyclerView.Adapter<ContentMovieAdapter.ContentMovi
 
     inner class ContentMovieViewHolder(private val binding: ItemContentBinding) :
         RecyclerView.ViewHolder(binding.root) {
-        fun bind(movies: DataDomain) {
+        fun bind(movie: DataDomain) {
             with(binding) {
                 Glide.with(itemView.context)
-                    .load("${BuildConfig.URL_IMAGE}${movies.posterPath}")
+                    .load("${BuildConfig.URL_IMAGE}${movie.posterPath}")
                     .apply {
                         RequestOptions.placeholderOf(R.drawable.ic_load)
                             .error(R.drawable.ic_broken_image)
                     }.into(ivContent)
 
                 itemView.setOnClickListener {
-                    onItemClickCallback.onItemClicked(movies)
+                    onItemClickCallback.onItemClicked(movie)
                 }
             }
         }

@@ -8,8 +8,7 @@ import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.dimas.made1.base.BaseNavigationFragment
-import com.dimas.made1.core.adapter.MovieAdapter
-import com.dimas.made1.core.adapter.TvAdapter
+import com.dimas.made1.core.adapter.MovieTvAdapter
 import com.dimas.made1.core.domain.model.DataDomain
 import com.dimas.made1.favorite.FavoriteFragmentDirections
 import com.dimas.made1.favorite.R
@@ -43,8 +42,7 @@ class FavoriteMovieTvFragment : BaseNavigationFragment() {
         val content = arguments?.getBoolean(DATA_CONTENT)
         itemTouchHelper.attachToRecyclerView(binding?.rvFavMovieTv)
         favState(DataState.LOADING)
-        val movieAdapter = MovieAdapter()
-        val tvAdapter = TvAdapter()
+        val movieTvAdapter = MovieTvAdapter()
 
         if (content == false) {
             viewModel.getFavoriteMovies().observe(viewLifecycleOwner, {
@@ -53,10 +51,10 @@ class FavoriteMovieTvFragment : BaseNavigationFragment() {
                 } else {
                     favState(DataState.SUCCESS)
                 }
-                movieAdapter.setData(it)
+                movieTvAdapter.setData(it)
             })
 
-            setupRvFavMovie(movieAdapter)
+            setupRvFavMovie(movieTvAdapter)
         } else {
             viewModel.getFavoriteTv().observe(viewLifecycleOwner, {
                 if (it.isNullOrEmpty()) {
@@ -64,25 +62,25 @@ class FavoriteMovieTvFragment : BaseNavigationFragment() {
                 } else {
                     favState(DataState.SUCCESS)
                 }
-                tvAdapter.setData(it)
+                movieTvAdapter.setData(it)
             })
-            setupRvFavTv(tvAdapter)
+            setupRvFavTv(movieTvAdapter)
         }
     }
 
-    private fun setupRvFavMovie(movieAdapter: MovieAdapter) {
+    private fun setupRvFavMovie(movieTvAdapter: MovieTvAdapter) {
         binding.apply {
             with(this?.rvFavMovieTv) {
                 this?.layoutManager = LinearLayoutManager(context)
                 this?.setHasFixedSize(true)
-                this?.adapter = movieAdapter
+                this?.adapter = movieTvAdapter
             }
         }
-        movieAdapter.setOnItemClickCallback(object : MovieAdapter.OnItemClickCallback {
-            override fun onItemClicked(movie: DataDomain) {
+        movieTvAdapter.setOnItemClickCallback(object : MovieTvAdapter.OnItemClickCallback {
+            override fun onItemClicked(movieTv: DataDomain) {
                 navigateWithAction(
                     FavoriteFragmentDirections.actionFavoriteMovieTvFragmentToNavDetail(
-                        "movie", movie
+                        "movie", movieTv
                     )
                 )
             }
@@ -90,7 +88,7 @@ class FavoriteMovieTvFragment : BaseNavigationFragment() {
     }
 
 
-    private fun setupRvFavTv(tvAdapter: TvAdapter) {
+    private fun setupRvFavTv(tvAdapter: MovieTvAdapter) {
         binding.apply {
             with(this?.rvFavMovieTv) {
                 this?.layoutManager = LinearLayoutManager(context)
@@ -99,11 +97,11 @@ class FavoriteMovieTvFragment : BaseNavigationFragment() {
             }
         }
 
-        tvAdapter.setOnItemClickCallback(object : TvAdapter.OnItemClickCallback {
-            override fun onItemClicked(tv: DataDomain) {
+        tvAdapter.setOnItemClickCallback(object : MovieTvAdapter.OnItemClickCallback {
+            override fun onItemClicked(movieTv: DataDomain) {
                 navigateWithAction(
                     FavoriteFragmentDirections.actionFavoriteMovieTvFragmentToNavDetail(
-                        "tv", tv
+                        "tv", movieTv
                     )
                 )
             }
@@ -172,7 +170,7 @@ class FavoriteMovieTvFragment : BaseNavigationFragment() {
             if (view != null) {
                 val content = arguments?.getBoolean(DATA_CONTENT)
                 if (content == false) {
-                    val movieAdapter = MovieAdapter()
+                    val movieAdapter = MovieTvAdapter()
                     val swipedPosition = viewHolder.bindingAdapterPosition
                     val movie = movieAdapter.getSwipedData(swipedPosition)
                     var state = movie.isFavorite
@@ -188,7 +186,7 @@ class FavoriteMovieTvFragment : BaseNavigationFragment() {
                     }
                     snackBar.show()
                 } else {
-                    val tvAdapter = TvAdapter()
+                    val tvAdapter = MovieTvAdapter()
                     val swipedPosition = viewHolder.bindingAdapterPosition
                     val tv = tvAdapter.getSwipedData(swipedPosition)
                     var state = tv.isFavorite
